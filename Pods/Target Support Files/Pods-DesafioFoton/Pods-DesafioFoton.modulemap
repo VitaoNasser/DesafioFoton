@@ -1,0 +1,6 @@
+framework module Pods_DesafioFoton {
+  umbrella header "Pods-DesafioFoton-umbrella.h"
+
+  export *
+  module * { export * }
+}

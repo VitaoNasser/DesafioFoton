@@ -17,6 +17,9 @@
 		03B4AB4B26DAD5270001212F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB4A26DAD5270001212F /* AddContactViewController.swift */; };
 		03B4AB5B26DADAA50001212F /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB5A26DADAA50001212F /* ContactsViewController.swift */; };
 		03B4AB6026DADE7D0001212F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB5F26DADE7D0001212F /* Contact.swift */; };
+		450F80C706D72264DBC2B852 /* Pods_DesafioFoton_DesafioFotonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A6D3165334DE057CE3C742 /* Pods_DesafioFoton_DesafioFotonUITests.framework */; };
+		8167FE0397665C88A6EE3766 /* Pods_DesafioFotonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B29B77A9E370EDDF7E13F5A /* Pods_DesafioFotonTests.framework */; };
+		F685A366221B7868424ECB4F /* Pods_DesafioFoton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F3899B0DF02515B555E896 /* Pods_DesafioFoton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,15 @@
 		03B4AB4A26DAD5270001212F /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		03B4AB5A26DADAA50001212F /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		03B4AB5F26DADE7D0001212F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		179401FCC874E956222E91E6 /* Pods-DesafioFoton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton.release.xcconfig"; path = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.release.xcconfig"; sourceTree = "<group>"; };
+		2B29B77A9E370EDDF7E13F5A /* Pods_DesafioFotonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioFotonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BE049DE7AA4B1CB1884204 /* Pods-DesafioFoton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton.debug.xcconfig"; path = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.debug.xcconfig"; sourceTree = "<group>"; };
+		99C549CEB02BE878CD51EBCE /* Pods-DesafioFotonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFotonTests.release.xcconfig"; path = "Target Support Files/Pods-DesafioFotonTests/Pods-DesafioFotonTests.release.xcconfig"; sourceTree = "<group>"; };
+		A093A3B4D43BBC3BC92901CB /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A6D3165334DE057CE3C742 /* Pods_DesafioFoton_DesafioFotonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioFoton_DesafioFotonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AD73FD5CF0D12BBCEDCD70 /* Pods-DesafioFotonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFotonTests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioFotonTests/Pods-DesafioFotonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F25A37E480E6411A33486979 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig"; path = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4F3899B0DF02515B555E896 /* Pods_DesafioFoton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioFoton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F685A366221B7868424ECB4F /* Pods_DesafioFoton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8167FE0397665C88A6EE3766 /* Pods_DesafioFotonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450F80C706D72264DBC2B852 /* Pods_DesafioFoton_DesafioFotonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				03B4AB1726D9D6DC0001212F /* DesafioFotonTests */,
 				03B4AB2226D9D6DC0001212F /* DesafioFotonUITests */,
 				03B4AAFF26D9D6DB0001212F /* Products */,
+				7389685939A646DC93B7C9F2 /* Pods */,
+				C4E702DA34C46792BAA8C203 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +151,30 @@
 			path = DesafioFotonUITests;
 			sourceTree = "<group>";
 		};
+		7389685939A646DC93B7C9F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51BE049DE7AA4B1CB1884204 /* Pods-DesafioFoton.debug.xcconfig */,
+				179401FCC874E956222E91E6 /* Pods-DesafioFoton.release.xcconfig */,
+				A093A3B4D43BBC3BC92901CB /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */,
+				F25A37E480E6411A33486979 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */,
+				D8AD73FD5CF0D12BBCEDCD70 /* Pods-DesafioFotonTests.debug.xcconfig */,
+				99C549CEB02BE878CD51EBCE /* Pods-DesafioFotonTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4E702DA34C46792BAA8C203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3899B0DF02515B555E896 /* Pods_DesafioFoton.framework */,
+				D1A6D3165334DE057CE3C742 /* Pods_DesafioFoton_DesafioFotonUITests.framework */,
+				2B29B77A9E370EDDF7E13F5A /* Pods_DesafioFotonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B4AB2826D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFoton" */;
 			buildPhases = (
+				198900351ED3A627D96F9D2C /* [CP] Check Pods Manifest.lock */,
 				03B4AAFA26D9D6DB0001212F /* Sources */,
 				03B4AAFB26D9D6DB0001212F /* Frameworks */,
 				03B4AAFC26D9D6DB0001212F /* Resources */,
@@ -158,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B4AB2B26D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFotonTests" */;
 			buildPhases = (
+				2D1114315EEE5C4DE04EA2FE /* [CP] Check Pods Manifest.lock */,
 				03B4AB1026D9D6DC0001212F /* Sources */,
 				03B4AB1126D9D6DC0001212F /* Frameworks */,
 				03B4AB1226D9D6DC0001212F /* Resources */,
@@ -176,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B4AB2E26D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFotonUITests" */;
 			buildPhases = (
+				31C270A8C1553B3ED72BFD41 /* [CP] Check Pods Manifest.lock */,
 				03B4AB1B26D9D6DC0001212F /* Sources */,
 				03B4AB1C26D9D6DC0001212F /* Frameworks */,
 				03B4AB1D26D9D6DC0001212F /* Resources */,
@@ -258,6 +302,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198900351ED3A627D96F9D2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioFoton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D1114315EEE5C4DE04EA2FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioFotonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31C270A8C1553B3ED72BFD41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioFoton-DesafioFotonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03B4AAFA26D9D6DB0001212F /* Sources */ = {
@@ -441,6 +554,7 @@
 		};
 		03B4AB2926D9D6DC0001212F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BE049DE7AA4B1CB1884204 /* Pods-DesafioFoton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +573,7 @@
 		};
 		03B4AB2A26D9D6DC0001212F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179401FCC874E956222E91E6 /* Pods-DesafioFoton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +592,7 @@
 		};
 		03B4AB2C26D9D6DC0001212F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AD73FD5CF0D12BBCEDCD70 /* Pods-DesafioFotonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +614,7 @@
 		};
 		03B4AB2D26D9D6DC0001212F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C549CEB02BE878CD51EBCE /* Pods-DesafioFotonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +636,7 @@
 		};
 		03B4AB2F26D9D6DC0001212F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A093A3B4D43BBC3BC92901CB /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +656,7 @@
 		};
 		03B4AB3026D9D6DC0001212F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25A37E480E6411A33486979 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_DesafioFoton_DesafioFotonUITests {
+  umbrella header "Pods-DesafioFoton-DesafioFotonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
