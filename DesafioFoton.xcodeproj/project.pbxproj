@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B4AB0226D9D6DB0001212F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB0126D9D6DB0001212F /* AppDelegate.swift */; };
+		03B4AB0426D9D6DB0001212F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB0326D9D6DB0001212F /* SceneDelegate.swift */; };
+		03B4AB0926D9D6DB0001212F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B4AB0726D9D6DB0001212F /* Main.storyboard */; };
+		03B4AB0B26D9D6DC0001212F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B4AB0A26D9D6DC0001212F /* Assets.xcassets */; };
+		03B4AB0E26D9D6DC0001212F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B4AB0C26D9D6DC0001212F /* LaunchScreen.storyboard */; };
+		03B4AB1926D9D6DC0001212F /* DesafioFotonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB1826D9D6DC0001212F /* DesafioFotonTests.swift */; };
+		03B4AB2426D9D6DC0001212F /* DesafioFotonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB2326D9D6DC0001212F /* DesafioFotonUITests.swift */; };
+		03B4AB4B26DAD5270001212F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB4A26DAD5270001212F /* AddContactViewController.swift */; };
+		03B4AB5B26DADAA50001212F /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB5A26DADAA50001212F /* ContactsViewController.swift */; };
+		03B4AB6026DADE7D0001212F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB5F26DADE7D0001212F /* Contact.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B4AB1526D9D6DC0001212F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B4AAF626D9D6DB0001212F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B4AAFD26D9D6DB0001212F;
+			remoteInfo = DesafioFoton;
+		};
+		03B4AB2026D9D6DC0001212F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B4AAF626D9D6DB0001212F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B4AAFD26D9D6DB0001212F;
+			remoteInfo = DesafioFoton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B4AAFE26D9D6DB0001212F /* DesafioFoton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioFoton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B4AB0126D9D6DB0001212F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B4AB0326D9D6DB0001212F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03B4AB0826D9D6DB0001212F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B4AB0A26D9D6DC0001212F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B4AB0D26D9D6DC0001212F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B4AB0F26D9D6DC0001212F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B4AB1426D9D6DC0001212F /* DesafioFotonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioFotonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B4AB1826D9D6DC0001212F /* DesafioFotonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioFotonTests.swift; sourceTree = "<group>"; };
+		03B4AB1A26D9D6DC0001212F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B4AB1F26D9D6DC0001212F /* DesafioFotonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioFotonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B4AB2326D9D6DC0001212F /* DesafioFotonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioFotonUITests.swift; sourceTree = "<group>"; };
+		03B4AB2526D9D6DC0001212F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B4AB4A26DAD5270001212F /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		03B4AB5A26DADAA50001212F /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		03B4AB5F26DADE7D0001212F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B4AAFB26D9D6DB0001212F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4AB1126D9D6DC0001212F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4AB1C26D9D6DC0001212F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B4AAF526D9D6DB0001212F = {
+			isa = PBXGroup;
+			children = (
+				03B4AB0026D9D6DB0001212F /* DesafioFoton */,
+				03B4AB1726D9D6DC0001212F /* DesafioFotonTests */,
+				03B4AB2226D9D6DC0001212F /* DesafioFotonUITests */,
+				03B4AAFF26D9D6DB0001212F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B4AAFF26D9D6DB0001212F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B4AAFE26D9D6DB0001212F /* DesafioFoton.app */,
+				03B4AB1426D9D6DC0001212F /* DesafioFotonTests.xctest */,
+				03B4AB1F26D9D6DC0001212F /* DesafioFotonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B4AB0026D9D6DB0001212F /* DesafioFoton */ = {
+			isa = PBXGroup;
+			children = (
+				03B4AB0126D9D6DB0001212F /* AppDelegate.swift */,
+				03B4AB0326D9D6DB0001212F /* SceneDelegate.swift */,
+				03B4AB0726D9D6DB0001212F /* Main.storyboard */,
+				03B4AB0A26D9D6DC0001212F /* Assets.xcassets */,
+				03B4AB0C26D9D6DC0001212F /* LaunchScreen.storyboard */,
+				03B4AB0F26D9D6DC0001212F /* Info.plist */,
+				03B4AB4A26DAD5270001212F /* AddContactViewController.swift */,
+				03B4AB5A26DADAA50001212F /* ContactsViewController.swift */,
+				03B4AB5F26DADE7D0001212F /* Contact.swift */,
+			);
+			path = DesafioFoton;
+			sourceTree = "<group>";
+		};
+		03B4AB1726D9D6DC0001212F /* DesafioFotonTests */ = {
+			isa = PBXGroup;
+			children = (
+				03B4AB1826D9D6DC0001212F /* DesafioFotonTests.swift */,
+				03B4AB1A26D9D6DC0001212F /* Info.plist */,
+			);
+			path = DesafioFotonTests;
+			sourceTree = "<group>";
+		};
+		03B4AB2226D9D6DC0001212F /* DesafioFotonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03B4AB2326D9D6DC0001212F /* DesafioFotonUITests.swift */,
+				03B4AB2526D9D6DC0001212F /* Info.plist */,
+			);
+			path = DesafioFotonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B4AAFD26D9D6DB0001212F /* DesafioFoton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B4AB2826D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFoton" */;
+			buildPhases = (
+				03B4AAFA26D9D6DB0001212F /* Sources */,
+				03B4AAFB26D9D6DB0001212F /* Frameworks */,
+				03B4AAFC26D9D6DB0001212F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioFoton;
+			productName = DesafioFoton;
+			productReference = 03B4AAFE26D9D6DB0001212F /* DesafioFoton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B4AB1326D9D6DC0001212F /* DesafioFotonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B4AB2B26D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFotonTests" */;
+			buildPhases = (
+				03B4AB1026D9D6DC0001212F /* Sources */,
+				03B4AB1126D9D6DC0001212F /* Frameworks */,
+				03B4AB1226D9D6DC0001212F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B4AB1626D9D6DC0001212F /* PBXTargetDependency */,
+			);
+			name = DesafioFotonTests;
+			productName = DesafioFotonTests;
+			productReference = 03B4AB1426D9D6DC0001212F /* DesafioFotonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03B4AB1E26D9D6DC0001212F /* DesafioFotonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B4AB2E26D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFotonUITests" */;
+			buildPhases = (
+				03B4AB1B26D9D6DC0001212F /* Sources */,
+				03B4AB1C26D9D6DC0001212F /* Frameworks */,
+				03B4AB1D26D9D6DC0001212F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B4AB2126D9D6DC0001212F /* PBXTargetDependency */,
+			);
+			name = DesafioFotonUITests;
+			productName = DesafioFotonUITests;
+			productReference = 03B4AB1F26D9D6DC0001212F /* DesafioFotonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B4AAF626D9D6DB0001212F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					03B4AAFD26D9D6DB0001212F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					03B4AB1326D9D6DC0001212F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 03B4AAFD26D9D6DB0001212F;
+					};
+					03B4AB1E26D9D6DC0001212F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 03B4AAFD26D9D6DB0001212F;
+					};
+				};
+			};
+			buildConfigurationList = 03B4AAF926D9D6DB0001212F /* Build configuration list for PBXProject "DesafioFoton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B4AAF526D9D6DB0001212F;
+			productRefGroup = 03B4AAFF26D9D6DB0001212F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B4AAFD26D9D6DB0001212F /* DesafioFoton */,
+				03B4AB1326D9D6DC0001212F /* DesafioFotonTests */,
+				03B4AB1E26D9D6DC0001212F /* DesafioFotonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B4AAFC26D9D6DB0001212F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4AB0E26D9D6DC0001212F /* LaunchScreen.storyboard in Resources */,
+				03B4AB0B26D9D6DC0001212F /* Assets.xcassets in Resources */,
+				03B4AB0926D9D6DB0001212F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4AB1226D9D6DC0001212F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4AB1D26D9D6DC0001212F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B4AAFA26D9D6DB0001212F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4AB0226D9D6DB0001212F /* AppDelegate.swift in Sources */,
+				03B4AB5B26DADAA50001212F /* ContactsViewController.swift in Sources */,
+				03B4AB6026DADE7D0001212F /* Contact.swift in Sources */,
+				03B4AB4B26DAD5270001212F /* AddContactViewController.swift in Sources */,
+				03B4AB0426D9D6DB0001212F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4AB1026D9D6DC0001212F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4AB1926D9D6DC0001212F /* DesafioFotonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4AB1B26D9D6DC0001212F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4AB2426D9D6DC0001212F /* DesafioFotonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B4AB1626D9D6DC0001212F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B4AAFD26D9D6DB0001212F /* DesafioFoton */;
+			targetProxy = 03B4AB1526D9D6DC0001212F /* PBXContainerItemProxy */;
+		};
+		03B4AB2126D9D6DC0001212F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B4AAFD26D9D6DB0001212F /* DesafioFoton */;
+			targetProxy = 03B4AB2026D9D6DC0001212F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03B4AB0726D9D6DB0001212F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B4AB0826D9D6DB0001212F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03B4AB0C26D9D6DC0001212F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B4AB0D26D9D6DC0001212F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B4AB2626D9D6DC0001212F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03B4AB2726D9D6DC0001212F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B4AB2926D9D6DC0001212F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioFoton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.DesafioFoton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B4AB2A26D9D6DC0001212F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioFoton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.DesafioFoton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03B4AB2C26D9D6DC0001212F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioFotonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.DesafioFotonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioFoton.app/DesafioFoton";
+			};
+			name = Debug;
+		};
+		03B4AB2D26D9D6DC0001212F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioFotonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.DesafioFotonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioFoton.app/DesafioFoton";
+			};
+			name = Release;
+		};
+		03B4AB2F26D9D6DC0001212F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioFotonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.DesafioFotonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioFoton;
+			};
+			name = Debug;
+		};
+		03B4AB3026D9D6DC0001212F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioFotonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.DesafioFotonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioFoton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B4AAF926D9D6DB0001212F /* Build configuration list for PBXProject "DesafioFoton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B4AB2626D9D6DC0001212F /* Debug */,
+				03B4AB2726D9D6DC0001212F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B4AB2826D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFoton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B4AB2926D9D6DC0001212F /* Debug */,
+				03B4AB2A26D9D6DC0001212F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B4AB2B26D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFotonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B4AB2C26D9D6DC0001212F /* Debug */,
+				03B4AB2D26D9D6DC0001212F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B4AB2E26D9D6DC0001212F /* Build configuration list for PBXNativeTarget "DesafioFotonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B4AB2F26D9D6DC0001212F /* Debug */,
+				03B4AB3026D9D6DC0001212F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B4AAF626D9D6DB0001212F /* Project object */;
+}
