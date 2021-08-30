@@ -3,230 +3,275 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01E1380B9DAEF7517AD42713A8CB716E /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114D89A28EC0958D02C7FB095ADEB9C /* ButtonRowWithPresent.swift */; };
-		052CDA13B29437A2FDCD9D19230AD39F /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F562FE0389F3EE4D7F7E1B6F244BE6 /* FieldsRow.swift */; };
-		05C88AAB95E98E3296996797706F19AF /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0355FB4754CB921A5EFB64942F626A25 /* RuleRequired.swift */; };
-		07572F1826C958646848D4EF5DBF377E /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E624DBEB996104950E796439C4C4ACE4 /* RuleRange.swift */; };
-		0D7339D0D404F9C394637DDFE383A7A8 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAE5A1A366F0A495950AD200A68326 /* DecimalFormatter.swift */; };
-		119C3D64BDFECAB92F4FFCEF9B4F135D /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E5385FE2A34349907D3896297B477 /* CheckRow.swift */; };
+		01E1380B9DAEF7517AD42713A8CB716E /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06592DC98B62A3B148CCCFC92346E /* ButtonRowWithPresent.swift */; };
+		052CDA13B29437A2FDCD9D19230AD39F /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C1E2898DCBBAF7F4EC59BEBAD7FEE /* FieldsRow.swift */; };
+		05C88AAB95E98E3296996797706F19AF /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEEEDC78E3B0ABAADBCA367358C131 /* RuleRequired.swift */; };
+		07572F1826C958646848D4EF5DBF377E /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780DC2353D72E2198C9D1B65287C52D9 /* RuleRange.swift */; };
+		0D7339D0D404F9C394637DDFE383A7A8 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8B3D68E4EB5D413DCE2E27F3D7BE9C /* DecimalFormatter.swift */; };
+		119C3D64BDFECAB92F4FFCEF9B4F135D /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCEF8FDB30167E667D5D740847EFAA /* CheckRow.swift */; };
+		1461D796EAEEA2709AAC113314470158 /* JMMaskTextField-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89456A4D4FFAD2FE1A63A66C77611942 /* JMMaskTextField-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		184715569ECE8F58C7DE753E6CB01F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		1998D5B37C5C75C95FFB5A8056ABDA08 /* Pods-DesafioFotonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 009B8828C60B253643D6DF95CC4406FB /* Pods-DesafioFotonTests-dummy.m */; };
-		1BB933C505E10805A9E179E3DD2CA17E /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1242F19914C5181FC8CB9656A0090D09 /* BaseRow.swift */; };
-		27A3F7981DF0B5CFCB2E56AABBEAA319 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B2218E24F5580CB5258C8BE50DC11 /* FieldRow.swift */; };
-		2D144E1543B0B44E364EFEC4E6CFE8D5 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25257EA207AA631EDBCE64FD24FAE8 /* RuleRegExp.swift */; };
-		2E5AD5FC9F45A7F38F5F5BC6FF7570E9 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F77CF09DF1D33788CEDA9B1CF6C3C /* RuleClosure.swift */; };
-		3BF29BEA4C1FF7360E93882C9D6C2A7C /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A51B461A1F2F60C6D5BA662C07377 /* AlertRow.swift */; };
-		45D64D81FC93E350F19E7A28A8A8FDAC /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808AFCE830657DA3A2F9D767A8F2147 /* NavigationAccessoryView.swift */; };
-		4D5CAEA66E12CA438CD7B4FA78BB6186 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17519237455C013113344841031BCB /* ListCheckRow.swift */; };
-		553F2C40EE9B6C0A1CC57FC2894455CD /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47724FD908563846B6944ADA4F1035 /* SelectableRowType.swift */; };
-		56EB318A58A511C6BE4098E8EAD6A7C0 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C76C0B400E4D680BB00EA65BF61D1 /* MultipleSelectorRow.swift */; };
-		57DA9857A10221E5D429C48B85BB0010 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DD06B2EED1E7A3390F40E50F9E682 /* Cell.swift */; };
-		5A02CFF7195D1A7592F777170D8FC6D9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92449A651AD9398CF0C0ED289BEEBB17 /* Protocols.swift */; };
-		5A1A55188705CB82F540F58D2910AB93 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F7C8A366CB7DC9EB773C7C78125140 /* Section.swift */; };
-		5A8396B9DDE887F7C397B7EEBC4163AA /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DAACB802E5B0CCA6D77EAEEF59FCA3 /* PickerRow.swift */; };
-		5D830D2E4071C40DEF82F88D7C51C44D /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E7D4910030E6201C58990A0C40A6C1 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F5515249E1A20C230755D2E8001F3FC /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B89CDD986386CF01595F01EAB0254 /* Operators.swift */; };
-		5FA0AFCA94E1291506DC54D03765FA22 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD4D9220DE35C3558A9865B357611B5 /* Row.swift */; };
-		61D928089445221BAB80A8DB76A68904 /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99350297FE900C09FCED3BD40B29A0EA /* PopoverSelectorRow.swift */; };
-		62E99A538A3363A9013DCCBF519B876F /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564FA52F4DC6DACE26CD6E219A49CDB /* CellType.swift */; };
-		6384CBA5E0C947FCDB049913443407F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		6706FE594A5FC58BE59F7AA454982D93 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EDA9F5B037F0D2555AD7DB11F8CEBE /* SliderRow.swift */; };
-		6D13C3C40D5F2B21B4491B81002F2894 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9162390A100741AACC5C89F95EE36B2 /* RuleEmail.swift */; };
-		7005C904B5F05004C2BC6703E8B14F39 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFF9B63C4C2327ADD9EA8F889C1D45 /* Validation.swift */; };
-		712C67E8BC81CC2AD569927CF75C0B96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		74EC68DA659219AB56A917312A73EA7D /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939C371B33C8358F6F99580B96D2D234 /* SelectorViewController.swift */; };
+		1BB933C505E10805A9E179E3DD2CA17E /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39422FF70DDEEEFE3BC2D5A24AE9CC7 /* BaseRow.swift */; };
+		27A3F7981DF0B5CFCB2E56AABBEAA319 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55808CEBB726A5C966EEE0F9D282EC1 /* FieldRow.swift */; };
+		2808DB0728D5A7A8B010839659BC0D52 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C884D50AF4C4C00D54283526D0B7B4 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */; };
+		2D144E1543B0B44E364EFEC4E6CFE8D5 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6838F2B3A6D9952D671613E908D90BF /* RuleRegExp.swift */; };
+		2E5AD5FC9F45A7F38F5F5BC6FF7570E9 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D1F2B2A4A63DE3A960DE21CD8246A /* RuleClosure.swift */; };
+		301B999DE8AD26152001BFBF003D8D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3BF29BEA4C1FF7360E93882C9D6C2A7C /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F65A1A33A7588A79C5E688ACBFFA05 /* AlertRow.swift */; };
+		4419FDD0D809975BAA7FE566A703DD8F /* Pods-DesafioFoton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D820D9623DB47B4B7048CD728D81AB /* Pods-DesafioFoton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D64D81FC93E350F19E7A28A8A8FDAC /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1369253786D58DA98BA031B3CC62BB19 /* NavigationAccessoryView.swift */; };
+		4D5CAEA66E12CA438CD7B4FA78BB6186 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F79117F3A07A0A24B746E3FFDC3E3C /* ListCheckRow.swift */; };
+		553F2C40EE9B6C0A1CC57FC2894455CD /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB053B1377A796A76D96E870B845A478 /* SelectableRowType.swift */; };
+		56EB318A58A511C6BE4098E8EAD6A7C0 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598A47A1A0918B34DC02A2ECD74CFE1 /* MultipleSelectorRow.swift */; };
+		57DA9857A10221E5D429C48B85BB0010 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B80115593A0B0DE721964668A9346 /* Cell.swift */; };
+		5879A5A26C2C4D3CA34F0728DA144423 /* JMMaskTextField-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67102BA314BFB27383F28FDF238E2B08 /* JMMaskTextField-Swift-dummy.m */; };
+		5A02CFF7195D1A7592F777170D8FC6D9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6126D82BDE045A4603AA7D815735ED2 /* Protocols.swift */; };
+		5A1A55188705CB82F540F58D2910AB93 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C29F1D5C40D706E96B300AF85264756 /* Section.swift */; };
+		5A8396B9DDE887F7C397B7EEBC4163AA /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB3D6DF4574669A9AE5159100FD16C /* PickerRow.swift */; };
+		5F43D15D9423E8F46C2C2858243CDF31 /* JMStringMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1CA20D8BB7A80CCF480327E396623 /* JMStringMask.swift */; };
+		5F5515249E1A20C230755D2E8001F3FC /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F948B5C4AFD76EA9EFB56CB4782743 /* Operators.swift */; };
+		5FA0AFCA94E1291506DC54D03765FA22 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0A159CF277ED6519BB27B2A7E6BF2 /* Row.swift */; };
+		61D928089445221BAB80A8DB76A68904 /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA941B3686EFFBD3F93ADA4111D5CB /* PopoverSelectorRow.swift */; };
+		62E99A538A3363A9013DCCBF519B876F /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9981EB5739A7A00DB7D79B61EC066 /* CellType.swift */; };
+		639BB0B485525347AC76339347BCCF8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6706FE594A5FC58BE59F7AA454982D93 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C84C894EC6C12D8A031B83CCCA69A7 /* SliderRow.swift */; };
+		6D13C3C40D5F2B21B4491B81002F2894 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5B245F78918CF8A05F97BEAEBDE3B /* RuleEmail.swift */; };
+		7005C904B5F05004C2BC6703E8B14F39 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B85C50D1DC57FD6863242F048FD789 /* Validation.swift */; };
+		74EC68DA659219AB56A917312A73EA7D /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5A4C8391A72074D7B88A666CED1473 /* SelectorViewController.swift */; };
 		7504268BC9D3BC3F322B86830267E460 /* Pods-DesafioFotonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC18E962F31B389BC7BC6F7C518ACB9 /* Pods-DesafioFotonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CDE8FB3A24BA483F4D2AFB70D990F70 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C23DA1BB1ADD370E225B030FF654D1 /* Eureka-dummy.m */; };
-		821C23BCC87386E7EDAAF97B3C4F1D5D /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB88A15CBBB5D390456854141FFDB /* RowType.swift */; };
-		8912ED9E5E1AED4DDE4CDF9F3BF3936F /* Pods-DesafioFoton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D820D9623DB47B4B7048CD728D81AB /* Pods-DesafioFoton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A92D825C03E19810B5393EFDFE4502E /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EC2C087BBAE0228DFAD257A5ABF757 /* MultipleSelectorViewController.swift */; };
-		8AFA10B7F0591080EA6BCBCC9CB34BE1 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600285F5C2853F19AD204D48D3D64698 /* GenericMultipleSelectorRow.swift */; };
-		8CDD660210D5A535F6725F30259E629A /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C307EC89B763A6CD514CDE262C02 /* PresenterRowType.swift */; };
-		A02F150A74062D9E29592D3EBD13B777 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E588D3BEB6128ECDF96810CF5784EB9 /* StepperRow.swift */; };
-		A4C99CE4C6D89F2107F6A280A0A85688 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3245DB461C6A4B39951BD9FFC4F458E4 /* HeaderFooterView.swift */; };
-		A77DA0652E7847FE296224EEB12F7EBD /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B5CF2252931156E77B9431A9EBA0F /* RuleLength.swift */; };
-		A91D4F561E5C16644A5D3A389609ACD6 /* DoublePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03351256E3B37BC9F7EB169A96BC7D97 /* DoublePickerRow.swift */; };
-		AAA33D7843F1F33E3F9D6F261AB5C2B3 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C2FCB94F934B614A96AA2870F2F8E /* PickerInlineRow.swift */; };
-		AADC2477F0EC2A446D3342DCA1E220C8 /* TriplePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C1C9B5AB5E4CC03C91D0732FC2816 /* TriplePickerInputRow.swift */; };
-		AC795F2AEFA1C804BABDB1D4931FAAEB /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53652FEF881142A691AB3CD7C2AF51D8 /* RowProtocols.swift */; };
-		AFCEB645D509F679CE8FBCFFEDBB65BC /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A784F3D94AEE7EDD7D57E642D80173 /* SwitchRow.swift */; };
-		B466D5B2650B7521FBE653FC9B7A793D /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E600E506C09767CE9989CDA0A95149 /* DateInlineRow.swift */; };
-		B490953386257F2C8E03C1D632AC361E /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC678E8793CAA24B07903F6162A5281 /* OptionsRow.swift */; };
-		B6DF9275361EA04A959E38F4133C33B7 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0C61F44C4A333DE5186AC6608CD0E /* SwipeActions.swift */; };
+		7CDE8FB3A24BA483F4D2AFB70D990F70 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D40D693E2768EABDE35CBBA625CBD6D /* Eureka-dummy.m */; };
+		821C23BCC87386E7EDAAF97B3C4F1D5D /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9345DAC1ACB1642ECFF771D94871B38 /* RowType.swift */; };
+		8A92D825C03E19810B5393EFDFE4502E /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B1F0D3EE58E65664A4F13ABD25F37 /* MultipleSelectorViewController.swift */; };
+		8AFA10B7F0591080EA6BCBCC9CB34BE1 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0AFA966C55F9C3ED611843CB4C358 /* GenericMultipleSelectorRow.swift */; };
+		8CDD660210D5A535F6725F30259E629A /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6BF60CA3A99A8544DF0D70CD9A07E /* PresenterRowType.swift */; };
+		A02F150A74062D9E29592D3EBD13B777 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB959CA3B92992E132951A3B023340 /* StepperRow.swift */; };
+		A4C99CE4C6D89F2107F6A280A0A85688 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FC5B381826C0744CB287486DFC46BB /* HeaderFooterView.swift */; };
+		A77DA0652E7847FE296224EEB12F7EBD /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B821472CF172F6E0CB2F301F917400 /* RuleLength.swift */; };
+		A91D4F561E5C16644A5D3A389609ACD6 /* DoublePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0304C1DAB8D51B1FADB213E8671F93 /* DoublePickerRow.swift */; };
+		AAA33D7843F1F33E3F9D6F261AB5C2B3 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B72F35A847472F523D9A5380273B86 /* PickerInlineRow.swift */; };
+		AADC2477F0EC2A446D3342DCA1E220C8 /* TriplePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1DE11E0AD3F4FBC9A94FDDEFE1E89 /* TriplePickerInputRow.swift */; };
+		AC795F2AEFA1C804BABDB1D4931FAAEB /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046252CC4AEC36E2C6F038B1065A78EA /* RowProtocols.swift */; };
+		AFCEB645D509F679CE8FBCFFEDBB65BC /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED46CF99D9ECCBD4C0F9224A43FE419 /* SwitchRow.swift */; };
+		B466D5B2650B7521FBE653FC9B7A793D /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C18E3874BAC3B16487D7D343C66AC2 /* DateInlineRow.swift */; };
+		B490953386257F2C8E03C1D632AC361E /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70063AA52A66C1925BDB4446168C71EB /* OptionsRow.swift */; };
+		B6DF9275361EA04A959E38F4133C33B7 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54263679EFCEC20DECA0FF54E3791305 /* SwipeActions.swift */; };
 		BA1F123F3ECF653AFD60C2E52C0D7A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		BE93E023215A8B4A05A2AEC8B7FAE170 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC2FC9416C67F36AFC5268D5C37146 /* InlineRowType.swift */; };
-		C08713DF3DF904E55D8A3E3775A6F3EB /* TriplePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91642320B2512FBBC8A5231BCDF7EA99 /* TriplePickerRow.swift */; };
-		C0F073D21CF9CB5F87F3F21044E98BF0 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80F68F04FE4ECF6CB81FE47C72863 /* DateRow.swift */; };
-		C299DDF2CE31D8489EFFD0B9D086F9FE /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401FE0F4500DDCDF5DD64394E7BD74A /* SelectableSection.swift */; };
-		C2F5EF0076B32E28969F73229409F94E /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD637F8E1CF522D8F98A586E8732A2 /* DatePickerRow.swift */; };
-		C3A91839B066E50496881C02B95755AC /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C884D50AF4C4C00D54283526D0B7B4 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */; };
-		C4EB1DE2CCEE60A99EB5AA718DD67105 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C947DCBD4C9806CB0D061885992D62 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5562E6984BB0FDC8358F2737187DC90 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E87F8BA245EA6691BAB75E2B6A0A6 /* Helpers.swift */; };
-		C63B306D3FAA845771A0B1CEB3F0DC16 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991608B0DE11BC8DA3BEFEFE9FE9A8F3 /* TextAreaRow.swift */; };
-		C74F50DD266F0933B137D16ACD76FB1A /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A0045FC0E530426B1C4D9F163098E /* RuleURL.swift */; };
-		C831261CF70AECC8AC9DDFDBFC3F7172 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00088D06DF26CCA60D7F44D81B7437 /* LabelRow.swift */; };
-		C97BE76AAB5C7242509D8482EBA86AE9 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B06FC1B8D1DC39DE315A40EE6E2A5 /* Form.swift */; };
-		CEF27164EA8A8C1BCB66B7A75E287216 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E96899C4B7544E01A5C4F9DD2D4417 /* ActionSheetRow.swift */; };
-		D75CBD8D2B4526B7DE24212AB7B24D20 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76516FC2AD0727576893C4E06BFC7C3 /* RowControllerType.swift */; };
-		D7663970356A7FBA65579C1EB951220C /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7441F61E053951DDF170440BD49D3D /* SelectorRow.swift */; };
-		D9FAA26AD41D565773823B074F93D909 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41906B6C83AC668DE2D0CFB8AE874686 /* DateFieldRow.swift */; };
-		DFD06D79C71CCAEFA59D7DFBD706C493 /* DoublePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8811A4F93B963630805133431CCC08D /* DoublePickerInputRow.swift */; };
-		E0F369B772C5C8F0AF3A1C8BA5674628 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245EF03A090F7B9FD63D83BC661B9B66 /* ButtonRow.swift */; };
-		E3E2A605AF119D1F90CE77963E6CFD26 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31D7AA77F5A605425190C5AE8FA5064 /* SelectorAlertController.swift */; };
-		E7DA4EBBBFFF3EB6992CA11B921DD211 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FD5672991FD612E9947D2F2250AF1 /* SegmentedRow.swift */; };
-		E987F386AA63D0DCD22642A475A8EFD7 /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157955A75E2D3B523269526E097CF662 /* PickerInputRow.swift */; };
-		E9AB923FC704B44222C8A5DB4145113A /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20777EA6FA4CD8EAC8EE468B0F9EF4A3 /* Core.swift */; };
-		EB9E8E94E8877C33E88295D89CF5D9CC /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B017C1352EBCD3359A0668F99AA0F83 /* RuleEqualsToRow.swift */; };
-		F20F0395D31337217935526D031702F1 /* Pods-DesafioFoton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108F2E0F871CFF58382AE13987D4849 /* Pods-DesafioFoton-dummy.m */; };
-		F2279E1339CC1B6326AD6FF389D24F96 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9514026D7CD71F7A87D7C46385DF0F /* DateInlineFieldRow.swift */; };
-		F47D1993C006C374C634B04421484A4D /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231C49570A295414E34DEDC7DFFEAFD /* AlertOptionsRow.swift */; };
+		BE3ED96D6751BD18786D0328BD0286B8 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E7D4910030E6201C58990A0C40A6C1 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE93E023215A8B4A05A2AEC8B7FAE170 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E614CE075ADCB660CEDDD6390A188F /* InlineRowType.swift */; };
+		C08713DF3DF904E55D8A3E3775A6F3EB /* TriplePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056CDF2524C9A466CBAB49CDA7F8DD5 /* TriplePickerRow.swift */; };
+		C0F073D21CF9CB5F87F3F21044E98BF0 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64E9BE738C21590F0A0715F8A4DC32 /* DateRow.swift */; };
+		C299DDF2CE31D8489EFFD0B9D086F9FE /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E42555A790515E1357BF640876B0B /* SelectableSection.swift */; };
+		C2F5EF0076B32E28969F73229409F94E /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE56EF1B25EAEE105A7CC3D32053216 /* DatePickerRow.swift */; };
+		C4EB1DE2CCEE60A99EB5AA718DD67105 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAB51A5B374A3BC1B076F304B51B886 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5562E6984BB0FDC8358F2737187DC90 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDC1F61633E6707FBA584F11900C0 /* Helpers.swift */; };
+		C63B306D3FAA845771A0B1CEB3F0DC16 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F8BC3C68625A4C9D62F923989967E /* TextAreaRow.swift */; };
+		C74F50DD266F0933B137D16ACD76FB1A /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58A0C4232DC27619A83F3ABD59B33A0 /* RuleURL.swift */; };
+		C831261CF70AECC8AC9DDFDBFC3F7172 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4EE204066B5F556749ED8FFDABBBE /* LabelRow.swift */; };
+		C97BE76AAB5C7242509D8482EBA86AE9 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110EDE273AB82B6DE968426C5908D61B /* Form.swift */; };
+		CAF7058D4C67E2A0D1832DFF9A43D3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CEF27164EA8A8C1BCB66B7A75E287216 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434AAF3E0E462D081E8A4346110AF6 /* ActionSheetRow.swift */; };
+		D49F8094D655ADAF20E39BCF176969FC /* Pods-DesafioFoton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108F2E0F871CFF58382AE13987D4849 /* Pods-DesafioFoton-dummy.m */; };
+		D75CBD8D2B4526B7DE24212AB7B24D20 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F560291332C195C50E0DF8466BED9 /* RowControllerType.swift */; };
+		D7663970356A7FBA65579C1EB951220C /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515D7632470B7A4A54BC79E78B403E3 /* SelectorRow.swift */; };
+		D9FAA26AD41D565773823B074F93D909 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D26CA9249EEA4694EEDCB000A0A35 /* DateFieldRow.swift */; };
+		DFD06D79C71CCAEFA59D7DFBD706C493 /* DoublePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A018452D9E7EB3D975F3AA9D0D2030 /* DoublePickerInputRow.swift */; };
+		E0F369B772C5C8F0AF3A1C8BA5674628 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D177AFF6E200724AD114E28E3F3E21 /* ButtonRow.swift */; };
+		E3E2A605AF119D1F90CE77963E6CFD26 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724A8D6373B2DA849982B7FC8E83B5E /* SelectorAlertController.swift */; };
+		E7DA4EBBBFFF3EB6992CA11B921DD211 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24500A7E81869F5B591BEE00A0857E7F /* SegmentedRow.swift */; };
+		E987F386AA63D0DCD22642A475A8EFD7 /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1CA5E5879080C57B8B77A2C35D6C9 /* PickerInputRow.swift */; };
+		E9AB923FC704B44222C8A5DB4145113A /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE130FE421F2D880392BE42BC9EADC6 /* Core.swift */; };
+		EB9E8E94E8877C33E88295D89CF5D9CC /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9738235B4DED3DF836D96CB195D33A /* RuleEqualsToRow.swift */; };
+		F2279E1339CC1B6326AD6FF389D24F96 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6882165DDAC3A37550CD6FE405941 /* DateInlineFieldRow.swift */; };
+		F335790D94A2AEB4EADBA7F119FC5335 /* JMMaskTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEAD4814BE6FBBA4DD4FDCBD5F686DD /* JMMaskTextField.swift */; };
+		F47D1993C006C374C634B04421484A4D /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC419BEDD3859FCC964EDECF624860 /* AlertOptionsRow.swift */; };
 		FAC9A8D90EFBB8C5EC881B0349F8A832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		FECC68B085B27878A5C1F2FECC9F088F /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D28F71FB32548A3B51B28AFAC146C6 /* PushRow.swift */; };
+		FECC68B085B27878A5C1F2FECC9F088F /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC896524314618AA1CBDFA8769D22B96 /* PushRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07D067A6CDD83031B16DD77FFD0DA5A5 /* PBXContainerItemProxy */ = {
+		033A0FDBAAF5FFB295801440F1E1D369 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
 			remoteInfo = Eureka;
 		};
-		6FFB25B4E920F3647A3941B350B08D47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
-			remoteInfo = Eureka;
-		};
-		BB0699A6D51894E0F498A7BB42333843 /* PBXContainerItemProxy */ = {
+		720718E121F6648AB6CF3E564561EA8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7AB67D247E7A8675ECE939019BC050BE;
 			remoteInfo = "Pods-DesafioFoton";
 		};
+		905C62B2E6BFD16EF93DA70AB73B8711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		DF238860AF43DC430B95C9128B56611E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD7F58830DF3D4D32A666527D4FDF8F;
+			remoteInfo = "JMMaskTextField-Swift";
+		};
+		E8136764F35F3DF2DCAAD04513EC82DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD7F58830DF3D4D32A666527D4FDF8F;
+			remoteInfo = "JMMaskTextField-Swift";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		009B8828C60B253643D6DF95CC4406FB /* Pods-DesafioFotonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFotonTests-dummy.m"; sourceTree = "<group>"; };
-		00EDA9F5B037F0D2555AD7DB11F8CEBE /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
 		0108F2E0F871CFF58382AE13987D4849 /* Pods-DesafioFoton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFoton-dummy.m"; sourceTree = "<group>"; };
-		03351256E3B37BC9F7EB169A96BC7D97 /* DoublePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerRow.swift; path = Source/Rows/DoublePickerRow.swift; sourceTree = "<group>"; };
-		0355FB4754CB921A5EFB64942F626A25 /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
-		03F7C8A366CB7DC9EB773C7C78125140 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
-		0473C2D6B0725A73E11B4ABAAF68CC80 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
+		033CB28CC40DE1EE911A4A0BEE1A726B /* Eureka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.release.xcconfig; sourceTree = "<group>"; };
+		046252CC4AEC36E2C6F038B1065A78EA /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
 		067C2D01120E96117BFB5B2149970422 /* Pods-DesafioFoton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DesafioFoton-frameworks.sh"; sourceTree = "<group>"; };
-		06AD637F8E1CF522D8F98A586E8732A2 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
-		06FFF9B63C4C2327ADD9EA8F889C1D45 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
 		082977F3777A7D434AB35C357B487F83 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C7441F61E053951DDF170440BD49D3D /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
-		0DA0C61F44C4A333DE5186AC6608CD0E /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
-		0F4A0045FC0E530426B1C4D9F163098E /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
-		1242F19914C5181FC8CB9656A0090D09 /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
-		157955A75E2D3B523269526E097CF662 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
-		16EC2C087BBAE0228DFAD257A5ABF757 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		09F948B5C4AFD76EA9EFB56CB4782743 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		0D40D693E2768EABDE35CBBA625CBD6D /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		0E0304C1DAB8D51B1FADB213E8671F93 /* DoublePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerRow.swift; path = Source/Rows/DoublePickerRow.swift; sourceTree = "<group>"; };
+		10B85C50D1DC57FD6863242F048FD789 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
+		110EDE273AB82B6DE968426C5908D61B /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		129B80115593A0B0DE721964668A9346 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		1369253786D58DA98BA031B3CC62BB19 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
+		1507CA3D39915CA947D2EC3AF96C4296 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
+		15E1CA5E5879080C57B8B77A2C35D6C9 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
+		16CA941B3686EFFBD3F93ADA4111D5CB /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
 		17E7D4910030E6201C58990A0C40A6C1 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFoton-DesafioFotonUITests-umbrella.h"; sourceTree = "<group>"; };
 		188B4762026782373350C66B8D701D01 /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		18E1CE71EE1EC57F167700F025376BF0 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
-		1D17519237455C013113344841031BCB /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
-		1D25257EA207AA631EDBCE64FD24FAE8 /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
-		20777EA6FA4CD8EAC8EE468B0F9EF4A3 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
-		221B89CDD986386CF01595F01EAB0254 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
-		242FD5672991FD612E9947D2F2250AF1 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
-		245EF03A090F7B9FD63D83BC661B9B66 /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
-		24EAE5A1A366F0A495950AD200A68326 /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
-		2808AFCE830657DA3A2F9D767A8F2147 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
+		18E0A159CF277ED6519BB27B2A7E6BF2 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		1EAB51A5B374A3BC1B076F304B51B886 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		2392946889B6928E6A36C94D22871FB1 /* Eureka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.debug.xcconfig; sourceTree = "<group>"; };
+		24500A7E81869F5B591BEE00A0857E7F /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
 		28B0ABD151CFEDF3B28E5F6CE6B35325 /* Pods_DesafioFoton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DesafioFoton.framework; path = "Pods-DesafioFoton.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EBDC1F61633E6707FBA584F11900C0 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
 		2A3BBE3B4407C72B0994197B0FD2680E /* Pods-DesafioFotonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFotonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CC18E962F31B389BC7BC6F7C518ACB9 /* Pods-DesafioFotonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFotonTests-umbrella.h"; sourceTree = "<group>"; };
-		3245DB461C6A4B39951BD9FFC4F458E4 /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		3056CDF2524C9A466CBAB49CDA7F8DD5 /* TriplePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerRow.swift; path = Source/Rows/TriplePickerRow.swift; sourceTree = "<group>"; };
 		3291A8C69584CC83351BCD3998DBDBFB /* Pods-DesafioFotonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFotonTests.modulemap"; sourceTree = "<group>"; };
-		3A0DD06B2EED1E7A3390F40E50F9E682 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
-		3C7CB88A15CBBB5D390456854141FFDB /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
-		3DD4D9220DE35C3558A9865B357611B5 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		3BFC419BEDD3859FCC964EDECF624860 /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
 		3F86C39A1C2FE916A369D713F72827BB /* Pods-DesafioFoton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton.debug.xcconfig"; sourceTree = "<group>"; };
-		41906B6C83AC668DE2D0CFB8AE874686 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
-		44F48E4569C627DE425F6871138EFD2F /* Eureka-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Eureka-Info.plist"; sourceTree = "<group>"; };
-		4E69C307EC89B763A6CD514CDE262C02 /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
-		51DC2FC9416C67F36AFC5268D5C37146 /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
-		52C947DCBD4C9806CB0D061885992D62 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		420B1F0D3EE58E65664A4F13ABD25F37 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		4724A8D6373B2DA849982B7FC8E83B5E /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		48FC5B381826C0744CB287486DFC46BB /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		4BB9981EB5739A7A00DB7D79B61EC066 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
 		52D9676456248228A9159B1240F9EF30 /* Pods-DesafioFoton-DesafioFotonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DesafioFoton-DesafioFotonUITests-frameworks.sh"; sourceTree = "<group>"; };
-		53652FEF881142A691AB3CD7C2AF51D8 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
-		597A51B461A1F2F60C6D5BA662C07377 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
-		600285F5C2853F19AD204D48D3D64698 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		54263679EFCEC20DECA0FF54E3791305 /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
+		5515D7632470B7A4A54BC79E78B403E3 /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
+		5AA1DE11E0AD3F4FBC9A94FDDEFE1E89 /* TriplePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerInputRow.swift; path = Source/Rows/TriplePickerInputRow.swift; sourceTree = "<group>"; };
+		5AD1CA20D8BB7A80CCF480327E396623 /* JMStringMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JMStringMask.swift; path = JMMaskTextField/Classes/JMStringMask.swift; sourceTree = "<group>"; };
+		5B5A4C8391A72074D7B88A666CED1473 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
 		60AAF934D977E73A7F16BCA0DD3C0C10 /* Pods-DesafioFotonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFotonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		617C1E2898DCBBAF7F4EC59BEBAD7FEE /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
 		61F53FD062BD8412FDE34090B11BB915 /* Pods-DesafioFoton-DesafioFotonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFoton-DesafioFotonUITests.modulemap"; sourceTree = "<group>"; };
-		64E600E506C09767CE9989CDA0A95149 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
-		6B017C1352EBCD3359A0668F99AA0F83 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
+		67102BA314BFB27383F28FDF238E2B08 /* JMMaskTextField-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMMaskTextField-Swift-dummy.m"; sourceTree = "<group>"; };
+		6C29F1D5C40D706E96B300AF85264756 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
 		6C3223EFA61518095D39E915B92366CF /* Pods-DesafioFoton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-Info.plist"; sourceTree = "<group>"; };
+		6ECCEF8FDB30167E667D5D740847EFAA /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		6F8B3D68E4EB5D413DCE2E27F3D7BE9C /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		70063AA52A66C1925BDB4446168C71EB /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
 		73928A9DA9641AAD7C1C27F3A6296F71 /* Pods-DesafioFoton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFoton-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75D820D9623DB47B4B7048CD728D81AB /* Pods-DesafioFoton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFoton-umbrella.h"; sourceTree = "<group>"; };
 		773A0E44F49F5B2FB8580CE1ABF80B17 /* Pods-DesafioFotonTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFotonTests-Info.plist"; sourceTree = "<group>"; };
 		77C884D50AF4C4C00D54283526D0B7B4 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFoton-DesafioFotonUITests-dummy.m"; sourceTree = "<group>"; };
+		780DC2353D72E2198C9D1B65287C52D9 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
 		786AD4FCD9B59B7AD7F52B2FDDDD7C99 /* Pods-DesafioFoton-DesafioFotonUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-DesafioFotonUITests-Info.plist"; sourceTree = "<group>"; };
-		7D9514026D7CD71F7A87D7C46385DF0F /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
-		7F6B2218E24F5580CB5258C8BE50DC11 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
-		81C80F68F04FE4ECF6CB81FE47C72863 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
+		79434AAF3E0E462D081E8A4346110AF6 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		79C18E3874BAC3B16487D7D343C66AC2 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
 		84DD61A18C5C08A6F4AA8F8F83A0B83D /* Pods-DesafioFoton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-acknowledgements.plist"; sourceTree = "<group>"; };
-		8564FA52F4DC6DACE26CD6E219A49CDB /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
-		8AC678E8793CAA24B07903F6162A5281 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
-		8E588D3BEB6128ECDF96810CF5784EB9 /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
-		91642320B2512FBBC8A5231BCDF7EA99 /* TriplePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerRow.swift; path = Source/Rows/TriplePickerRow.swift; sourceTree = "<group>"; };
-		91C23DA1BB1ADD370E225B030FF654D1 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
-		92449A651AD9398CF0C0ED289BEEBB17 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
-		931F77CF09DF1D33788CEDA9B1CF6C3C /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
-		939C371B33C8358F6F99580B96D2D234 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
-		93C3BF59B6B62A822652203E7C4B5BBC /* Eureka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.debug.xcconfig; sourceTree = "<group>"; };
-		9401FE0F4500DDCDF5DD64394E7BD74A /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
-		94B3B389CF6C2BB4F391A1A16FD0DA46 /* Eureka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.release.xcconfig; sourceTree = "<group>"; };
-		94DAACB802E5B0CCA6D77EAEEF59FCA3 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		88D177AFF6E200724AD114E28E3F3E21 /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		89456A4D4FFAD2FE1A63A66C77611942 /* JMMaskTextField-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMaskTextField-Swift-umbrella.h"; sourceTree = "<group>"; };
+		8B1D26CA9249EEA4694EEDCB000A0A35 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		8CA6882165DDAC3A37550CD6FE405941 /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		937F8BC3C68625A4C9D62F923989967E /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
+		94A06592DC98B62A3B148CCCFC92346E /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
 		9592738507D694A75946096A2AAAFB97 /* Pods-DesafioFotonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFotonTests.release.xcconfig"; sourceTree = "<group>"; };
-		961C2FCB94F934B614A96AA2870F2F8E /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
-		991608B0DE11BC8DA3BEFEFE9FE9A8F3 /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
-		99350297FE900C09FCED3BD40B29A0EA /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
-		9C1C1C9B5AB5E4CC03C91D0732FC2816 /* TriplePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerInputRow.swift; path = Source/Rows/TriplePickerInputRow.swift; sourceTree = "<group>"; };
+		9598A47A1A0918B34DC02A2ECD74CFE1 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		95C6BF60CA3A99A8544DF0D70CD9A07E /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		9B0E2C501B921A19FC3B9C85F2809994 /* JMMaskTextField-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "JMMaskTextField-Swift.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8811A4F93B963630805133431CCC08D /* DoublePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerInputRow.swift; path = Source/Rows/DoublePickerInputRow.swift; sourceTree = "<group>"; };
-		A9D28F71FB32548A3B51B28AFAC146C6 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		9DE56EF1B25EAEE105A7CC3D32053216 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
+		A02A81EE754E44FF05933F20BCF00654 /* JMMaskTextField-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JMMaskTextField-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		A0A018452D9E7EB3D975F3AA9D0D2030 /* DoublePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerInputRow.swift; path = Source/Rows/DoublePickerInputRow.swift; sourceTree = "<group>"; };
+		A0FEEEDC78E3B0ABAADBCA367358C131 /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
+		A54E42555A790515E1357BF640876B0B /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
+		A58A0C4232DC27619A83F3ABD59B33A0 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		AB053B1377A796A76D96E870B845A478 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
 		ABDE8B76D0E6A7804FF62F5747D8C52F /* Pods-DesafioFoton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFoton.modulemap"; sourceTree = "<group>"; };
-		AE5B06FC1B8D1DC39DE315A40EE6E2A5 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		AC64E9BE738C21590F0A0715F8A4DC32 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
+		AC9738235B4DED3DF836D96CB195D33A /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
+		AEEFBC61263744EF97A7D999AA042114 /* JMMaskTextField-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JMMaskTextField-Swift-Info.plist"; sourceTree = "<group>"; };
 		B03A993EA8561AB7300562032A709841 /* Pods_DesafioFoton_DesafioFotonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DesafioFoton_DesafioFotonUITests.framework; path = "Pods-DesafioFoton-DesafioFotonUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38FF3B1D96B4076A4660D8B3F674D3F /* JMMaskTextField_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMMaskTextField_Swift.framework; path = "JMMaskTextField-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39422FF70DDEEEFE3BC2D5A24AE9CC7 /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
 		B491719638FE5F3B65F907A0B55611CC /* Pods_DesafioFotonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DesafioFotonTests.framework; path = "Pods-DesafioFotonTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6B5CF2252931156E77B9431A9EBA0F /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
-		C114D89A28EC0958D02C7FB095ADEB9C /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		B4E614CE075ADCB660CEDDD6390A188F /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		BD62BAB1DB0A2FA41159C247C76A836E /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		C2B821472CF172F6E0CB2F301F917400 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		C3C84C894EC6C12D8A031B83CCCA69A7 /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
+		C63F7BA8845A9CEF8724F4EB71FAF205 /* Eureka-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Eureka-Info.plist"; sourceTree = "<group>"; };
+		C9E454BEC803B4EFA1CAEC78715044C1 /* JMMaskTextField-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMaskTextField-Swift-prefix.pch"; sourceTree = "<group>"; };
+		CAE130FE421F2D880392BE42BC9EADC6 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
 		CBC15042DAE266E8A17A0C9C0DFED7E7 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D18E5385FE2A34349907D3896297B477 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		D1EB3D6DF4574669A9AE5159100FD16C /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D35E87F8BA245EA6691BAB75E2B6A0A6 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		D6C5B245F78918CF8A05F97BEAEBDE3B /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
+		DC5CD6E4465CDFC388D46292DF888CD4 /* JMMaskTextField-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JMMaskTextField-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		DC896524314618AA1CBDFA8769D22B96 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		E06D1F2B2A4A63DE3A960DE21CD8246A /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		E0F79117F3A07A0A24B746E3FFDC3E3C /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
 		E2A47970C084CF35D1E603271AA4BF1F /* Pods-DesafioFoton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton.release.xcconfig"; sourceTree = "<group>"; };
-		E31D7AA77F5A605425190C5AE8FA5064 /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
-		E4F562FE0389F3EE4D7F7E1B6F244BE6 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
-		E624DBEB996104950E796439C4C4ACE4 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
-		E76516FC2AD0727576893C4E06BFC7C3 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
-		E9162390A100741AACC5C89F95EE36B2 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
-		E99C76C0B400E4D680BB00EA65BF61D1 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		E4AB959CA3B92992E132951A3B023340 /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		E4B72F35A847472F523D9A5380273B86 /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		E4F65A1A33A7588A79C5E688ACBFFA05 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		E5A4EE204066B5F556749ED8FFDABBBE /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
+		E5B0AFA966C55F9C3ED611843CB4C358 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		E6126D82BDE045A4603AA7D815735ED2 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
+		E9345DAC1ACB1642ECFF771D94871B38 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F231C49570A295414E34DEDC7DFFEAFD /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
+		EDEAD4814BE6FBBA4DD4FDCBD5F686DD /* JMMaskTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JMMaskTextField.swift; path = JMMaskTextField/Classes/JMMaskTextField.swift; sourceTree = "<group>"; };
+		EED46CF99D9ECCBD4C0F9224A43FE419 /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
 		F4B96610E194131035E0E27F7788B771 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5A784F3D94AEE7EDD7D57E642D80173 /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		F50F560291332C195C50E0DF8466BED9 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		F55808CEBB726A5C966EEE0F9D282EC1 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		F6838F2B3A6D9952D671613E908D90BF /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
 		F8A07BA63FEA17A562598C7F2B35C78A /* Pods-DesafioFotonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFotonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F8E96899C4B7544E01A5C4F9DD2D4417 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
-		FC47724FD908563846B6944ADA4F1035 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
 		FDC39757D8981B853B7C1EDF97417DFC /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF00088D06DF26CCA60D7F44D81B7437 /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79EADAA74123D058075B7B062E2F1852 /* Frameworks */ = {
+		041511ADB8C5CE4BB65BA8B06AD30385 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				712C67E8BC81CC2AD569927CF75C0B96 /* Foundation.framework in Frameworks */,
+				639BB0B485525347AC76339347BCCF8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27038F869426B4179C0EF3D2FC2A73C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF7058D4C67E2A0D1832DFF9A43D3DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B14C873B129E923EF42BF0839E6F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301B999DE8AD26152001BFBF003D8D2C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +281,6 @@
 			files = (
 				BA1F123F3ECF653AFD60C2E52C0D7A08 /* Foundation.framework in Frameworks */,
 				184715569ECE8F58C7DE753E6CB01F1E /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92E934796C382732BDFFE1B71576B525 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6384CBA5E0C947FCDB049913443407F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +295,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E498C66BB9180E9D2C5D62B42EF153E /* Pods */ = {
+		157B25D037896D7B602652EB26D5E1E4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				74C091241870871571B301E4305B4076 /* Eureka */,
+				1507CA3D39915CA947D2EC3AF96C4296 /* Eureka.modulemap */,
+				0D40D693E2768EABDE35CBBA625CBD6D /* Eureka-dummy.m */,
+				C63F7BA8845A9CEF8724F4EB71FAF205 /* Eureka-Info.plist */,
+				BD62BAB1DB0A2FA41159C247C76A836E /* Eureka-prefix.pch */,
+				1EAB51A5B374A3BC1B076F304B51B886 /* Eureka-umbrella.h */,
+				2392946889B6928E6A36C94D22871FB1 /* Eureka.debug.xcconfig */,
+				033CB28CC40DE1EE911A4A0BEE1A726B /* Eureka.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -272,6 +316,17 @@
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E667347B0ACFF7357CC02CA2F275D74 /* JMMaskTextField-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EDEAD4814BE6FBBA4DD4FDCBD5F686DD /* JMMaskTextField.swift */,
+				5AD1CA20D8BB7A80CCF480327E396623 /* JMStringMask.swift */,
+				5B81057C247E3D0B18A0FFF843C3D115 /* Support Files */,
+			);
+			name = "JMMaskTextField-Swift";
+			path = "JMMaskTextField-Swift";
 			sourceTree = "<group>";
 		};
 		32D1001053D2A6BC27E0A67666F97074 /* Pods-DesafioFoton */ = {
@@ -291,6 +346,18 @@
 			path = "Target Support Files/Pods-DesafioFoton";
 			sourceTree = "<group>";
 		};
+		566C1748CAE43880C59A0CC049BC89A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082977F3777A7D434AB35C357B487F83 /* Eureka.framework */,
+				B38FF3B1D96B4076A4660D8B3F674D3F /* JMMaskTextField_Swift.framework */,
+				28B0ABD151CFEDF3B28E5F6CE6B35325 /* Pods_DesafioFoton.framework */,
+				B03A993EA8561AB7300562032A709841 /* Pods_DesafioFoton_DesafioFotonUITests.framework */,
+				B491719638FE5F3B65F907A0B55611CC /* Pods_DesafioFotonTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +365,21 @@
 				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B81057C247E3D0B18A0FFF843C3D115 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B0E2C501B921A19FC3B9C85F2809994 /* JMMaskTextField-Swift.modulemap */,
+				67102BA314BFB27383F28FDF238E2B08 /* JMMaskTextField-Swift-dummy.m */,
+				AEEFBC61263744EF97A7D999AA042114 /* JMMaskTextField-Swift-Info.plist */,
+				C9E454BEC803B4EFA1CAEC78715044C1 /* JMMaskTextField-Swift-prefix.pch */,
+				89456A4D4FFAD2FE1A63A66C77611942 /* JMMaskTextField-Swift-umbrella.h */,
+				DC5CD6E4465CDFC388D46292DF888CD4 /* JMMaskTextField-Swift.debug.xcconfig */,
+				A02A81EE754E44FF05933F20BCF00654 /* JMMaskTextField-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JMMaskTextField-Swift";
 			sourceTree = "<group>";
 		};
 		5CA5827A13AB647B8CC5830C098EDAA7 /* Targets Support Files */ = {
@@ -327,81 +409,6 @@
 			path = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests";
 			sourceTree = "<group>";
 		};
-		74C091241870871571B301E4305B4076 /* Eureka */ = {
-			isa = PBXGroup;
-			children = (
-				F8E96899C4B7544E01A5C4F9DD2D4417 /* ActionSheetRow.swift */,
-				F231C49570A295414E34DEDC7DFFEAFD /* AlertOptionsRow.swift */,
-				597A51B461A1F2F60C6D5BA662C07377 /* AlertRow.swift */,
-				1242F19914C5181FC8CB9656A0090D09 /* BaseRow.swift */,
-				245EF03A090F7B9FD63D83BC661B9B66 /* ButtonRow.swift */,
-				C114D89A28EC0958D02C7FB095ADEB9C /* ButtonRowWithPresent.swift */,
-				3A0DD06B2EED1E7A3390F40E50F9E682 /* Cell.swift */,
-				8564FA52F4DC6DACE26CD6E219A49CDB /* CellType.swift */,
-				D18E5385FE2A34349907D3896297B477 /* CheckRow.swift */,
-				20777EA6FA4CD8EAC8EE468B0F9EF4A3 /* Core.swift */,
-				41906B6C83AC668DE2D0CFB8AE874686 /* DateFieldRow.swift */,
-				7D9514026D7CD71F7A87D7C46385DF0F /* DateInlineFieldRow.swift */,
-				64E600E506C09767CE9989CDA0A95149 /* DateInlineRow.swift */,
-				06AD637F8E1CF522D8F98A586E8732A2 /* DatePickerRow.swift */,
-				81C80F68F04FE4ECF6CB81FE47C72863 /* DateRow.swift */,
-				24EAE5A1A366F0A495950AD200A68326 /* DecimalFormatter.swift */,
-				A8811A4F93B963630805133431CCC08D /* DoublePickerInputRow.swift */,
-				03351256E3B37BC9F7EB169A96BC7D97 /* DoublePickerRow.swift */,
-				7F6B2218E24F5580CB5258C8BE50DC11 /* FieldRow.swift */,
-				E4F562FE0389F3EE4D7F7E1B6F244BE6 /* FieldsRow.swift */,
-				AE5B06FC1B8D1DC39DE315A40EE6E2A5 /* Form.swift */,
-				600285F5C2853F19AD204D48D3D64698 /* GenericMultipleSelectorRow.swift */,
-				3245DB461C6A4B39951BD9FFC4F458E4 /* HeaderFooterView.swift */,
-				D35E87F8BA245EA6691BAB75E2B6A0A6 /* Helpers.swift */,
-				51DC2FC9416C67F36AFC5268D5C37146 /* InlineRowType.swift */,
-				FF00088D06DF26CCA60D7F44D81B7437 /* LabelRow.swift */,
-				1D17519237455C013113344841031BCB /* ListCheckRow.swift */,
-				E99C76C0B400E4D680BB00EA65BF61D1 /* MultipleSelectorRow.swift */,
-				16EC2C087BBAE0228DFAD257A5ABF757 /* MultipleSelectorViewController.swift */,
-				2808AFCE830657DA3A2F9D767A8F2147 /* NavigationAccessoryView.swift */,
-				221B89CDD986386CF01595F01EAB0254 /* Operators.swift */,
-				8AC678E8793CAA24B07903F6162A5281 /* OptionsRow.swift */,
-				961C2FCB94F934B614A96AA2870F2F8E /* PickerInlineRow.swift */,
-				157955A75E2D3B523269526E097CF662 /* PickerInputRow.swift */,
-				94DAACB802E5B0CCA6D77EAEEF59FCA3 /* PickerRow.swift */,
-				99350297FE900C09FCED3BD40B29A0EA /* PopoverSelectorRow.swift */,
-				4E69C307EC89B763A6CD514CDE262C02 /* PresenterRowType.swift */,
-				92449A651AD9398CF0C0ED289BEEBB17 /* Protocols.swift */,
-				A9D28F71FB32548A3B51B28AFAC146C6 /* PushRow.swift */,
-				3DD4D9220DE35C3558A9865B357611B5 /* Row.swift */,
-				E76516FC2AD0727576893C4E06BFC7C3 /* RowControllerType.swift */,
-				53652FEF881142A691AB3CD7C2AF51D8 /* RowProtocols.swift */,
-				3C7CB88A15CBBB5D390456854141FFDB /* RowType.swift */,
-				931F77CF09DF1D33788CEDA9B1CF6C3C /* RuleClosure.swift */,
-				E9162390A100741AACC5C89F95EE36B2 /* RuleEmail.swift */,
-				6B017C1352EBCD3359A0668F99AA0F83 /* RuleEqualsToRow.swift */,
-				BE6B5CF2252931156E77B9431A9EBA0F /* RuleLength.swift */,
-				E624DBEB996104950E796439C4C4ACE4 /* RuleRange.swift */,
-				1D25257EA207AA631EDBCE64FD24FAE8 /* RuleRegExp.swift */,
-				0355FB4754CB921A5EFB64942F626A25 /* RuleRequired.swift */,
-				0F4A0045FC0E530426B1C4D9F163098E /* RuleURL.swift */,
-				03F7C8A366CB7DC9EB773C7C78125140 /* Section.swift */,
-				242FD5672991FD612E9947D2F2250AF1 /* SegmentedRow.swift */,
-				FC47724FD908563846B6944ADA4F1035 /* SelectableRowType.swift */,
-				9401FE0F4500DDCDF5DD64394E7BD74A /* SelectableSection.swift */,
-				E31D7AA77F5A605425190C5AE8FA5064 /* SelectorAlertController.swift */,
-				0C7441F61E053951DDF170440BD49D3D /* SelectorRow.swift */,
-				939C371B33C8358F6F99580B96D2D234 /* SelectorViewController.swift */,
-				00EDA9F5B037F0D2555AD7DB11F8CEBE /* SliderRow.swift */,
-				8E588D3BEB6128ECDF96810CF5784EB9 /* StepperRow.swift */,
-				0DA0C61F44C4A333DE5186AC6608CD0E /* SwipeActions.swift */,
-				F5A784F3D94AEE7EDD7D57E642D80173 /* SwitchRow.swift */,
-				991608B0DE11BC8DA3BEFEFE9FE9A8F3 /* TextAreaRow.swift */,
-				9C1C1C9B5AB5E4CC03C91D0732FC2816 /* TriplePickerInputRow.swift */,
-				91642320B2512FBBC8A5231BCDF7EA99 /* TriplePickerRow.swift */,
-				06FFF9B63C4C2327ADD9EA8F889C1D45 /* Validation.swift */,
-				A13A722ED190189AEA2744246E4A05B6 /* Support Files */,
-			);
-			name = Eureka;
-			path = Eureka;
-			sourceTree = "<group>";
-		};
 		852F2D21874504B9F19BD6FE0EB30993 /* Pods-DesafioFotonTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,19 +425,88 @@
 			path = "Target Support Files/Pods-DesafioFotonTests";
 			sourceTree = "<group>";
 		};
-		A13A722ED190189AEA2744246E4A05B6 /* Support Files */ = {
+		B20948B20D9EA85310EB7C77D62A0E8E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0473C2D6B0725A73E11B4ABAAF68CC80 /* Eureka.modulemap */,
-				91C23DA1BB1ADD370E225B030FF654D1 /* Eureka-dummy.m */,
-				44F48E4569C627DE425F6871138EFD2F /* Eureka-Info.plist */,
-				18E1CE71EE1EC57F167700F025376BF0 /* Eureka-prefix.pch */,
-				52C947DCBD4C9806CB0D061885992D62 /* Eureka-umbrella.h */,
-				93C3BF59B6B62A822652203E7C4B5BBC /* Eureka.debug.xcconfig */,
-				94B3B389CF6C2BB4F391A1A16FD0DA46 /* Eureka.release.xcconfig */,
+				B3CD617F46C4EAB22B48C22D77884A95 /* Eureka */,
+				1E667347B0ACFF7357CC02CA2F275D74 /* JMMaskTextField-Swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Eureka";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3CD617F46C4EAB22B48C22D77884A95 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				79434AAF3E0E462D081E8A4346110AF6 /* ActionSheetRow.swift */,
+				3BFC419BEDD3859FCC964EDECF624860 /* AlertOptionsRow.swift */,
+				E4F65A1A33A7588A79C5E688ACBFFA05 /* AlertRow.swift */,
+				B39422FF70DDEEEFE3BC2D5A24AE9CC7 /* BaseRow.swift */,
+				88D177AFF6E200724AD114E28E3F3E21 /* ButtonRow.swift */,
+				94A06592DC98B62A3B148CCCFC92346E /* ButtonRowWithPresent.swift */,
+				129B80115593A0B0DE721964668A9346 /* Cell.swift */,
+				4BB9981EB5739A7A00DB7D79B61EC066 /* CellType.swift */,
+				6ECCEF8FDB30167E667D5D740847EFAA /* CheckRow.swift */,
+				CAE130FE421F2D880392BE42BC9EADC6 /* Core.swift */,
+				8B1D26CA9249EEA4694EEDCB000A0A35 /* DateFieldRow.swift */,
+				8CA6882165DDAC3A37550CD6FE405941 /* DateInlineFieldRow.swift */,
+				79C18E3874BAC3B16487D7D343C66AC2 /* DateInlineRow.swift */,
+				9DE56EF1B25EAEE105A7CC3D32053216 /* DatePickerRow.swift */,
+				AC64E9BE738C21590F0A0715F8A4DC32 /* DateRow.swift */,
+				6F8B3D68E4EB5D413DCE2E27F3D7BE9C /* DecimalFormatter.swift */,
+				A0A018452D9E7EB3D975F3AA9D0D2030 /* DoublePickerInputRow.swift */,
+				0E0304C1DAB8D51B1FADB213E8671F93 /* DoublePickerRow.swift */,
+				F55808CEBB726A5C966EEE0F9D282EC1 /* FieldRow.swift */,
+				617C1E2898DCBBAF7F4EC59BEBAD7FEE /* FieldsRow.swift */,
+				110EDE273AB82B6DE968426C5908D61B /* Form.swift */,
+				E5B0AFA966C55F9C3ED611843CB4C358 /* GenericMultipleSelectorRow.swift */,
+				48FC5B381826C0744CB287486DFC46BB /* HeaderFooterView.swift */,
+				29EBDC1F61633E6707FBA584F11900C0 /* Helpers.swift */,
+				B4E614CE075ADCB660CEDDD6390A188F /* InlineRowType.swift */,
+				E5A4EE204066B5F556749ED8FFDABBBE /* LabelRow.swift */,
+				E0F79117F3A07A0A24B746E3FFDC3E3C /* ListCheckRow.swift */,
+				9598A47A1A0918B34DC02A2ECD74CFE1 /* MultipleSelectorRow.swift */,
+				420B1F0D3EE58E65664A4F13ABD25F37 /* MultipleSelectorViewController.swift */,
+				1369253786D58DA98BA031B3CC62BB19 /* NavigationAccessoryView.swift */,
+				09F948B5C4AFD76EA9EFB56CB4782743 /* Operators.swift */,
+				70063AA52A66C1925BDB4446168C71EB /* OptionsRow.swift */,
+				E4B72F35A847472F523D9A5380273B86 /* PickerInlineRow.swift */,
+				15E1CA5E5879080C57B8B77A2C35D6C9 /* PickerInputRow.swift */,
+				D1EB3D6DF4574669A9AE5159100FD16C /* PickerRow.swift */,
+				16CA941B3686EFFBD3F93ADA4111D5CB /* PopoverSelectorRow.swift */,
+				95C6BF60CA3A99A8544DF0D70CD9A07E /* PresenterRowType.swift */,
+				E6126D82BDE045A4603AA7D815735ED2 /* Protocols.swift */,
+				DC896524314618AA1CBDFA8769D22B96 /* PushRow.swift */,
+				18E0A159CF277ED6519BB27B2A7E6BF2 /* Row.swift */,
+				F50F560291332C195C50E0DF8466BED9 /* RowControllerType.swift */,
+				046252CC4AEC36E2C6F038B1065A78EA /* RowProtocols.swift */,
+				E9345DAC1ACB1642ECFF771D94871B38 /* RowType.swift */,
+				E06D1F2B2A4A63DE3A960DE21CD8246A /* RuleClosure.swift */,
+				D6C5B245F78918CF8A05F97BEAEBDE3B /* RuleEmail.swift */,
+				AC9738235B4DED3DF836D96CB195D33A /* RuleEqualsToRow.swift */,
+				C2B821472CF172F6E0CB2F301F917400 /* RuleLength.swift */,
+				780DC2353D72E2198C9D1B65287C52D9 /* RuleRange.swift */,
+				F6838F2B3A6D9952D671613E908D90BF /* RuleRegExp.swift */,
+				A0FEEEDC78E3B0ABAADBCA367358C131 /* RuleRequired.swift */,
+				A58A0C4232DC27619A83F3ABD59B33A0 /* RuleURL.swift */,
+				6C29F1D5C40D706E96B300AF85264756 /* Section.swift */,
+				24500A7E81869F5B591BEE00A0857E7F /* SegmentedRow.swift */,
+				AB053B1377A796A76D96E870B845A478 /* SelectableRowType.swift */,
+				A54E42555A790515E1357BF640876B0B /* SelectableSection.swift */,
+				4724A8D6373B2DA849982B7FC8E83B5E /* SelectorAlertController.swift */,
+				5515D7632470B7A4A54BC79E78B403E3 /* SelectorRow.swift */,
+				5B5A4C8391A72074D7B88A666CED1473 /* SelectorViewController.swift */,
+				C3C84C894EC6C12D8A031B83CCCA69A7 /* SliderRow.swift */,
+				E4AB959CA3B92992E132951A3B023340 /* StepperRow.swift */,
+				54263679EFCEC20DECA0FF54E3791305 /* SwipeActions.swift */,
+				EED46CF99D9ECCBD4C0F9224A43FE419 /* SwitchRow.swift */,
+				937F8BC3C68625A4C9D62F923989967E /* TextAreaRow.swift */,
+				5AA1DE11E0AD3F4FBC9A94FDDEFE1E89 /* TriplePickerInputRow.swift */,
+				3056CDF2524C9A466CBAB49CDA7F8DD5 /* TriplePickerRow.swift */,
+				10B85C50D1DC57FD6863242F048FD789 /* Validation.swift */,
+				157B25D037896D7B602652EB26D5E1E4 /* Support Files */,
+			);
+			name = Eureka;
+			path = Eureka;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -438,34 +514,15 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				0E498C66BB9180E9D2C5D62B42EF153E /* Pods */,
-				FE992F276F9F93591BB8675FAAAFA8FB /* Products */,
+				B20948B20D9EA85310EB7C77D62A0E8E /* Pods */,
+				566C1748CAE43880C59A0CC049BC89A2 /* Products */,
 				5CA5827A13AB647B8CC5830C098EDAA7 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		FE992F276F9F93591BB8675FAAAFA8FB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				082977F3777A7D434AB35C357B487F83 /* Eureka.framework */,
-				28B0ABD151CFEDF3B28E5F6CE6B35325 /* Pods_DesafioFoton.framework */,
-				B03A993EA8561AB7300562032A709841 /* Pods_DesafioFoton_DesafioFotonUITests.framework */,
-				B491719638FE5F3B65F907A0B55611CC /* Pods_DesafioFotonTests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D009D8E56C7AA4EF2C7DACCDAB78EA2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8912ED9E5E1AED4DDE4CDF9F3BF3936F /* Pods-DesafioFoton-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46DD1B00D480A74F27790562AE1F8652 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,11 +531,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666555F793EB34B63B85899E8AA9575D /* Headers */ = {
+		508E027EAE33B3CC49372A599AAA50F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D830D2E4071C40DEF82F88D7C51C44D /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */,
+				1461D796EAEEA2709AAC113314470158 /* JMMaskTextField-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DACD729D2243A67202B8CC7C49353D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3ED96D6751BD18786D0328BD0286B8 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,22 +555,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCEF74D849EF94AB1BFFE306112701E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4419FDD0D809975BAA7FE566A703DD8F /* Pods-DesafioFoton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4C195B81DA61A8A81C5B08EEF2261CFB /* Pods-DesafioFoton-DesafioFotonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAB316568A10D734653923281609E4D1 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */;
+			buildConfigurationList = 6BD5239CBF34310A6CD878347D41656E /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */;
 			buildPhases = (
-				666555F793EB34B63B85899E8AA9575D /* Headers */,
-				AEFC009C883553A05A29A3C8AC012E29 /* Sources */,
-				79EADAA74123D058075B7B062E2F1852 /* Frameworks */,
-				9033A2DA8055CBF044F559957435233B /* Resources */,
+				7DACD729D2243A67202B8CC7C49353D4 /* Headers */,
+				6FB3562F64DB118EE00BA122FECA487A /* Sources */,
+				041511ADB8C5CE4BB65BA8B06AD30385 /* Frameworks */,
+				DBD4381CA20211110B956A815B0D4CE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD8F8F7858D8D1BD9D416572B03A0E9F /* PBXTargetDependency */,
+				3CA14CE82859CB7ABC8CE464247373A7 /* PBXTargetDependency */,
+				5F9C6CDE939BB9D40264660435819F6D /* PBXTargetDependency */,
 			);
 			name = "Pods-DesafioFoton-DesafioFotonUITests";
 			productName = "Pods-DesafioFoton-DesafioFotonUITests";
@@ -524,26 +598,45 @@
 			buildRules = (
 			);
 			dependencies = (
-				E1B72211C9B75546BF992C8C55EE2A2C /* PBXTargetDependency */,
+				911506FDCE0314AA53C31D5674E69B53 /* PBXTargetDependency */,
 			);
 			name = "Pods-DesafioFotonTests";
 			productName = "Pods-DesafioFotonTests";
 			productReference = B491719638FE5F3B65F907A0B55611CC /* Pods_DesafioFotonTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7AB67D247E7A8675ECE939019BC050BE /* Pods-DesafioFoton */ = {
+		6AD7F58830DF3D4D32A666527D4FDF8F /* JMMaskTextField-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FE7BA3A9E4B61C658081FBA76C5D6A6 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */;
+			buildConfigurationList = E0C45B16D16B3143347F1C9F5CA6A9F8 /* Build configuration list for PBXNativeTarget "JMMaskTextField-Swift" */;
 			buildPhases = (
-				2D009D8E56C7AA4EF2C7DACCDAB78EA2 /* Headers */,
-				1D5F62B9155A3E8C20ED69C51B3B45EC /* Sources */,
-				92E934796C382732BDFFE1B71576B525 /* Frameworks */,
-				4FEFAF941CB12F453553B5DE7DD94939 /* Resources */,
+				508E027EAE33B3CC49372A599AAA50F7 /* Headers */,
+				C44870965C2AC8A3FD2BF9ADEDD5AF92 /* Sources */,
+				27038F869426B4179C0EF3D2FC2A73C8 /* Frameworks */,
+				CC1EC373B48BDD5A8121190F0DA916D6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				777D0B782C3FEA209AD7443EADC58547 /* PBXTargetDependency */,
+			);
+			name = "JMMaskTextField-Swift";
+			productName = "JMMaskTextField-Swift";
+			productReference = B38FF3B1D96B4076A4660D8B3F674D3F /* JMMaskTextField_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AB67D247E7A8675ECE939019BC050BE /* Pods-DesafioFoton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7710CDEE967BAB01AFB9D4A09AAA5EDC /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */;
+			buildPhases = (
+				BCEF74D849EF94AB1BFFE306112701E9 /* Headers */,
+				57717CEDE9959E130AFE6C9063876547 /* Sources */,
+				53B14C873B129E923EF42BF0839E6F4B /* Frameworks */,
+				CF7D4AFB5DF8677A416A1C2625C5D6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF089FC411A05181A3F63965357435C /* PBXTargetDependency */,
+				14C20DD594FB9CE18C1B86E3D3EEA795 /* PBXTargetDependency */,
 			);
 			name = "Pods-DesafioFoton";
 			productName = "Pods-DesafioFoton";
@@ -578,7 +671,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -586,11 +679,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FE992F276F9F93591BB8675FAAAFA8FB /* Products */;
+			productRefGroup = 566C1748CAE43880C59A0CC049BC89A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */,
+				6AD7F58830DF3D4D32A666527D4FDF8F /* JMMaskTextField-Swift */,
 				7AB67D247E7A8675ECE939019BC050BE /* Pods-DesafioFoton */,
 				4C195B81DA61A8A81C5B08EEF2261CFB /* Pods-DesafioFoton-DesafioFotonUITests */,
 				4F992E0A7AC4C82AE77FD86DE7D25840 /* Pods-DesafioFotonTests */,
@@ -606,21 +700,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FEFAF941CB12F453553B5DE7DD94939 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9033A2DA8055CBF044F559957435233B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6AFE590176E3A846DAE473492B8ADE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1EC373B48BDD5A8121190F0DA916D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D4AFB5DF8677A416A1C2625C5D6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD4381CA20211110B956A815B0D4CE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -712,42 +813,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D5F62B9155A3E8C20ED69C51B3B45EC /* Sources */ = {
+		57717CEDE9959E130AFE6C9063876547 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F20F0395D31337217935526D031702F1 /* Pods-DesafioFoton-dummy.m in Sources */,
+				D49F8094D655ADAF20E39BCF176969FC /* Pods-DesafioFoton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEFC009C883553A05A29A3C8AC012E29 /* Sources */ = {
+		6FB3562F64DB118EE00BA122FECA487A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A91839B066E50496881C02B95755AC /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */,
+				2808DB0728D5A7A8B010839659BC0D52 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44870965C2AC8A3FD2BF9ADEDD5AF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5879A5A26C2C4D3CA34F0728DA144423 /* JMMaskTextField-Swift-dummy.m in Sources */,
+				F335790D94A2AEB4EADBA7F119FC5335 /* JMMaskTextField.swift in Sources */,
+				5F43D15D9423E8F46C2C2858243CDF31 /* JMStringMask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		777D0B782C3FEA209AD7443EADC58547 /* PBXTargetDependency */ = {
+		14C20DD594FB9CE18C1B86E3D3EEA795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JMMaskTextField-Swift";
+			target = 6AD7F58830DF3D4D32A666527D4FDF8F /* JMMaskTextField-Swift */;
+			targetProxy = DF238860AF43DC430B95C9128B56611E /* PBXContainerItemProxy */;
+		};
+		3CA14CE82859CB7ABC8CE464247373A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Eureka;
 			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
-			targetProxy = 6FFB25B4E920F3647A3941B350B08D47 /* PBXContainerItemProxy */;
+			targetProxy = 905C62B2E6BFD16EF93DA70AB73B8711 /* PBXContainerItemProxy */;
 		};
-		CD8F8F7858D8D1BD9D416572B03A0E9F /* PBXTargetDependency */ = {
+		5F9C6CDE939BB9D40264660435819F6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Eureka;
-			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
-			targetProxy = 07D067A6CDD83031B16DD77FFD0DA5A5 /* PBXContainerItemProxy */;
+			name = "JMMaskTextField-Swift";
+			target = 6AD7F58830DF3D4D32A666527D4FDF8F /* JMMaskTextField-Swift */;
+			targetProxy = E8136764F35F3DF2DCAAD04513EC82DB /* PBXContainerItemProxy */;
 		};
-		E1B72211C9B75546BF992C8C55EE2A2C /* PBXTargetDependency */ = {
+		911506FDCE0314AA53C31D5674E69B53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DesafioFoton";
 			target = 7AB67D247E7A8675ECE939019BC050BE /* Pods-DesafioFoton */;
-			targetProxy = BB0699A6D51894E0F498A7BB42333843 /* PBXContainerItemProxy */;
+			targetProxy = 720718E121F6648AB6CF3E564561EA8F /* PBXContainerItemProxy */;
+		};
+		EBF089FC411A05181A3F63965357435C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = 033A0FDBAAF5FFB295801440F1E1D369 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -856,7 +979,7 @@
 		};
 		2970C634118E91C13265B794D78E6C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93C3BF59B6B62A822652203E7C4B5BBC /* Eureka.debug.xcconfig */;
+			baseConfigurationReference = 2392946889B6928E6A36C94D22871FB1 /* Eureka.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -890,7 +1013,7 @@
 		};
 		4D1E7B2E04601C0A0A43D8E65EC4051B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94B3B389CF6C2BB4F391A1A16FD0DA46 /* Eureka.release.xcconfig */;
+			baseConfigurationReference = 033CB28CC40DE1EE911A4A0BEE1A726B /* Eureka.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -912,6 +1035,78 @@
 				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
 				PRODUCT_MODULE_NAME = Eureka;
 				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C14808DADAFD2EBEAA12F7C7BE98DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F86C39A1C2FE916A369D713F72827BB /* Pods-DesafioFoton.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707C4459DF40E3A3B17127EF10A1A380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02A81EE754E44FF05933F20BCF00654 /* JMMaskTextField-Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JMMaskTextField-Swift/JMMaskTextField-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMMaskTextField-Swift/JMMaskTextField-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JMMaskTextField-Swift/JMMaskTextField-Swift.modulemap";
+				PRODUCT_MODULE_NAME = JMMaskTextField_Swift;
+				PRODUCT_NAME = JMMaskTextField_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -960,81 +1155,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		84B235C011BBD91E5CC8B44B2EC25D16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2A47970C084CF35D1E603271AA4BF1F /* Pods-DesafioFoton.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97123851588B64D2BA6632EA1CDE83E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4B96610E194131035E0E27F7788B771 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A3B97134147B359ACC94E1BC139242BC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1097,9 +1217,9 @@
 			};
 			name = Release;
 		};
-		AB445FDA8CD4B9AF21F9DE3C96EA6FC7 /* Debug */ = {
+		A855A2E8C559E50B0CE8504AD5E0DD7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F86C39A1C2FE916A369D713F72827BB /* Pods-DesafioFoton.debug.xcconfig */;
+			baseConfigurationReference = F4B96610E194131035E0E27F7788B771 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1111,7 +1231,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1120,7 +1240,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1134,7 +1254,7 @@
 			};
 			name = Debug;
 		};
-		F792A0F7E97A8BC080772878EF5138F1 /* Release */ = {
+		ED4938163AB231F66FE71EFD9E573159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBC15042DAE266E8A17A0C9C0DFED7E7 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */;
 			buildSettings = {
@@ -1172,18 +1292,81 @@
 			};
 			name = Release;
 		};
+		F2035AE538E26B40A8F7191C970A5D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A47970C084CF35D1E603271AA4BF1F /* Pods-DesafioFoton.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4823AF961D46ADB8FF2CA58D56573C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5CD6E4465CDFC388D46292DF888CD4 /* JMMaskTextField-Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JMMaskTextField-Swift/JMMaskTextField-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMMaskTextField-Swift/JMMaskTextField-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JMMaskTextField-Swift/JMMaskTextField-Swift.modulemap";
+				PRODUCT_MODULE_NAME = JMMaskTextField_Swift;
+				PRODUCT_NAME = JMMaskTextField_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FE7BA3A9E4B61C658081FBA76C5D6A6 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB445FDA8CD4B9AF21F9DE3C96EA6FC7 /* Debug */,
-				84B235C011BBD91E5CC8B44B2EC25D16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		36778B42AB96755AAFA8AF892C40E50E /* Build configuration list for PBXNativeTarget "Eureka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1211,11 +1394,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAB316568A10D734653923281609E4D1 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */ = {
+		6BD5239CBF34310A6CD878347D41656E /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97123851588B64D2BA6632EA1CDE83E2 /* Debug */,
-				F792A0F7E97A8BC080772878EF5138F1 /* Release */,
+				A855A2E8C559E50B0CE8504AD5E0DD7B /* Debug */,
+				ED4938163AB231F66FE71EFD9E573159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7710CDEE967BAB01AFB9D4A09AAA5EDC /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C14808DADAFD2EBEAA12F7C7BE98DB0 /* Debug */,
+				F2035AE538E26B40A8F7191C970A5D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C45B16D16B3143347F1C9F5CA6A9F8 /* Build configuration list for PBXNativeTarget "JMMaskTextField-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4823AF961D46ADB8FF2CA58D56573C7 /* Debug */,
+				707C4459DF40E3A3B17127EF10A1A380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

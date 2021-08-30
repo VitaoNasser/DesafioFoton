@@ -1,16 +1,20 @@
 PODS:
   - Eureka (5.3.3)
+  - JMMaskTextField-Swift (0.1.3)
 
 DEPENDENCIES:
   - Eureka
+  - JMMaskTextField-Swift
 
 SPEC REPOS:
   trunk:
     - Eureka
+    - JMMaskTextField-Swift
 
 SPEC CHECKSUMS:
   Eureka: e6d720290c56bb23333ad1a0e020b2a98a0e9a43
+  JMMaskTextField-Swift: 16aa552605b121285e6c2f0817ab31cea5f4704b
 
-PODFILE CHECKSUM: 3adc45c6059a15a5abc6c352f3f916ff51334c8c
+PODFILE CHECKSUM: 40f8d6ab61e94baa371e539b9649939a4f7d8d17
 
 COCOAPODS: 1.9.3

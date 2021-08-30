@@ -16,29 +16,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agenda Foton" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nT-NN-oTl">
-                                <rect key="frame" x="16" y="433" width="382" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autor: Victor Nasser" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icT-ny-pmg">
-                                <rect key="frame" x="16" y="479" width="382" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="HdO-sT-vsU">
+                                <rect key="frame" x="16" y="76" width="382" height="124"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agenda Fóton" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nT-NN-oTl">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desafio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icT-ny-pmg">
+                                        <rect key="frame" x="0.0" y="97.5" width="382" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="4zD-8h-hJk">
+                                <rect key="frame" x="16" y="721" width="382" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autor: Victor Nasser" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42W-7G-m9q">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="icT-ny-pmg" secondAttribute="trailing" constant="16" id="0gl-l0-cMk"/>
-                            <constraint firstItem="icT-ny-pmg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JCZ-GD-KCr"/>
-                            <constraint firstAttribute="trailing" secondItem="3nT-NN-oTl" secondAttribute="trailing" constant="16" id="KXv-Zy-NXm"/>
-                            <constraint firstItem="3nT-NN-oTl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="bE9-wF-Pqv"/>
-                            <constraint firstItem="icT-ny-pmg" firstAttribute="top" secondItem="3nT-NN-oTl" secondAttribute="bottom" constant="16" id="cDf-Yt-mHq"/>
-                            <constraint firstItem="3nT-NN-oTl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="m1U-Ve-HL5"/>
-                            <constraint firstItem="3nT-NN-oTl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wnq-rb-aMh"/>
+                            <constraint firstAttribute="trailing" secondItem="4zD-8h-hJk" secondAttribute="trailing" constant="16" id="CCn-kg-zGj"/>
+                            <constraint firstItem="HdO-sT-vsU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Gi7-4D-cyr"/>
+                            <constraint firstItem="4zD-8h-hJk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="IIl-25-Gs7"/>
+                            <constraint firstItem="HdO-sT-vsU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="NLW-gL-8oP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HdO-sT-vsU" secondAttribute="trailing" constant="16" id="cQw-Te-DsC"/>
+                            <constraint firstItem="4zD-8h-hJk" firstAttribute="top" secondItem="HdO-sT-vsU" secondAttribute="bottom" constant="521" id="wgQ-cJ-mPb"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -48,8 +63,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

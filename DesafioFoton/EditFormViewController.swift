@@ -20,6 +20,7 @@ class EditFormViewController: UIViewController {
     @IBOutlet weak var districtTextField: UITextField!
     @IBOutlet weak var streetTextField: UITextField!
     @IBOutlet weak var streetNumberTextField: UITextField!
+    @IBOutlet weak var complementTextField: UITextField!
     
     @IBOutlet weak var saveButton: UIButton!
     
@@ -45,6 +46,17 @@ class EditFormViewController: UIViewController {
     @IBAction func save(_ sender: Any) {
         let model = Contact(context: context)
         model.name = nameTextField.text
+        model.phoneNumber = phoneNumberTextField.text
+//      model.birthDate = birthDateTextField
+        model.cep = cepTextField.text
+        model.state = stateTextField.text
+        model.city = cityTextField.text
+        model.district = districtTextField.text
+        model.street = streetTextField.text
+        model.streetNumber = streetTextField.text
+        model.complement = complementTextField.text
+        
+        
         
         do {
             try context.save()
@@ -65,6 +77,9 @@ class EditFormViewController: UIViewController {
     @IBAction func onValueChange(_ sender: Any) {
         validate()
     }
+    
+    
+    
     
     //Calls this function when the tap is recognized.
     @objc func dismissKeyboard() {

@@ -6,6 +6,7 @@ target 'DesafioFoton' do
   use_frameworks!
 
   # Pods for DesafioFoton
+  pod 'JMMaskTextField-Swift'
   pod 'Eureka'
 
   target 'DesafioFotonTests' do
