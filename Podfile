@@ -8,9 +8,7 @@ target 'DesafioFoton' do
   # Pods for DesafioFoton
   pod 'JMMaskTextField-Swift'
   pod 'Eureka'
-  pod 'Alamofire', '~> 5.4'
-
-
+ 
   target 'DesafioFotonTests' do
     inherit! :search_paths
     # Pods for testing
