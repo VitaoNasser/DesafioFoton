@@ -6,6 +6,7 @@ target 'DesafioFoton' do
   use_frameworks!
 
   # Pods for DesafioFoton
+  pod 'Eureka'
 
   target 'DesafioFotonTests' do
     inherit! :search_paths

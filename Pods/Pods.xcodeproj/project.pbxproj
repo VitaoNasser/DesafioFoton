@@ -7,19 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1998D5B37C5C75C95FFB5A8056ABDA08 /* Pods-DesafioFotonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E40BB6B12EC9DE440F4AB5A07E10E /* Pods-DesafioFotonTests-dummy.m */; };
-		2D806931D5B7EE9B98DA2E0787C9925C /* Pods-DesafioFoton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8B17550783DAFB5AC9D36696538A75 /* Pods-DesafioFoton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CB4E540439505898655E94ABD462730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		54B63E77B2DFAEBC7D8C97576644853D /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BDF908168513A12DDF503C54CE5B /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ECD5CE0394F7BC04F2D7301F682F862 /* Pods-DesafioFoton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6152CB9EE4058768DFCAD8DA1F139F /* Pods-DesafioFoton-dummy.m */; };
-		7504268BC9D3BC3F322B86830267E460 /* Pods-DesafioFotonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2671F31E37B49F4D081B4086F331B82 /* Pods-DesafioFotonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5141A1CC233D1439F5177B022700CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E511960C693625F45C02FE1CFAFB35A3 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 620A8217F4FAD1F11424374891E39616 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */; };
-		FAC9A8D90EFBB8C5EC881B0349F8A832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		01E1380B9DAEF7517AD42713A8CB716E /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114D89A28EC0958D02C7FB095ADEB9C /* ButtonRowWithPresent.swift */; };
+		052CDA13B29437A2FDCD9D19230AD39F /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F562FE0389F3EE4D7F7E1B6F244BE6 /* FieldsRow.swift */; };
+		05C88AAB95E98E3296996797706F19AF /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0355FB4754CB921A5EFB64942F626A25 /* RuleRequired.swift */; };
+		07572F1826C958646848D4EF5DBF377E /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E624DBEB996104950E796439C4C4ACE4 /* RuleRange.swift */; };
+		0D7339D0D404F9C394637DDFE383A7A8 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAE5A1A366F0A495950AD200A68326 /* DecimalFormatter.swift */; };
+		119C3D64BDFECAB92F4FFCEF9B4F135D /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E5385FE2A34349907D3896297B477 /* CheckRow.swift */; };
+		184715569ECE8F58C7DE753E6CB01F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		1998D5B37C5C75C95FFB5A8056ABDA08 /* Pods-DesafioFotonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 009B8828C60B253643D6DF95CC4406FB /* Pods-DesafioFotonTests-dummy.m */; };
+		1BB933C505E10805A9E179E3DD2CA17E /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1242F19914C5181FC8CB9656A0090D09 /* BaseRow.swift */; };
+		27A3F7981DF0B5CFCB2E56AABBEAA319 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B2218E24F5580CB5258C8BE50DC11 /* FieldRow.swift */; };
+		2D144E1543B0B44E364EFEC4E6CFE8D5 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25257EA207AA631EDBCE64FD24FAE8 /* RuleRegExp.swift */; };
+		2E5AD5FC9F45A7F38F5F5BC6FF7570E9 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F77CF09DF1D33788CEDA9B1CF6C3C /* RuleClosure.swift */; };
+		3BF29BEA4C1FF7360E93882C9D6C2A7C /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A51B461A1F2F60C6D5BA662C07377 /* AlertRow.swift */; };
+		45D64D81FC93E350F19E7A28A8A8FDAC /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808AFCE830657DA3A2F9D767A8F2147 /* NavigationAccessoryView.swift */; };
+		4D5CAEA66E12CA438CD7B4FA78BB6186 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17519237455C013113344841031BCB /* ListCheckRow.swift */; };
+		553F2C40EE9B6C0A1CC57FC2894455CD /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47724FD908563846B6944ADA4F1035 /* SelectableRowType.swift */; };
+		56EB318A58A511C6BE4098E8EAD6A7C0 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C76C0B400E4D680BB00EA65BF61D1 /* MultipleSelectorRow.swift */; };
+		57DA9857A10221E5D429C48B85BB0010 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DD06B2EED1E7A3390F40E50F9E682 /* Cell.swift */; };
+		5A02CFF7195D1A7592F777170D8FC6D9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92449A651AD9398CF0C0ED289BEEBB17 /* Protocols.swift */; };
+		5A1A55188705CB82F540F58D2910AB93 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F7C8A366CB7DC9EB773C7C78125140 /* Section.swift */; };
+		5A8396B9DDE887F7C397B7EEBC4163AA /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DAACB802E5B0CCA6D77EAEEF59FCA3 /* PickerRow.swift */; };
+		5D830D2E4071C40DEF82F88D7C51C44D /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E7D4910030E6201C58990A0C40A6C1 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5515249E1A20C230755D2E8001F3FC /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B89CDD986386CF01595F01EAB0254 /* Operators.swift */; };
+		5FA0AFCA94E1291506DC54D03765FA22 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD4D9220DE35C3558A9865B357611B5 /* Row.swift */; };
+		61D928089445221BAB80A8DB76A68904 /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99350297FE900C09FCED3BD40B29A0EA /* PopoverSelectorRow.swift */; };
+		62E99A538A3363A9013DCCBF519B876F /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564FA52F4DC6DACE26CD6E219A49CDB /* CellType.swift */; };
+		6384CBA5E0C947FCDB049913443407F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6706FE594A5FC58BE59F7AA454982D93 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EDA9F5B037F0D2555AD7DB11F8CEBE /* SliderRow.swift */; };
+		6D13C3C40D5F2B21B4491B81002F2894 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9162390A100741AACC5C89F95EE36B2 /* RuleEmail.swift */; };
+		7005C904B5F05004C2BC6703E8B14F39 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFF9B63C4C2327ADD9EA8F889C1D45 /* Validation.swift */; };
+		712C67E8BC81CC2AD569927CF75C0B96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		74EC68DA659219AB56A917312A73EA7D /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939C371B33C8358F6F99580B96D2D234 /* SelectorViewController.swift */; };
+		7504268BC9D3BC3F322B86830267E460 /* Pods-DesafioFotonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC18E962F31B389BC7BC6F7C518ACB9 /* Pods-DesafioFotonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDE8FB3A24BA483F4D2AFB70D990F70 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C23DA1BB1ADD370E225B030FF654D1 /* Eureka-dummy.m */; };
+		821C23BCC87386E7EDAAF97B3C4F1D5D /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB88A15CBBB5D390456854141FFDB /* RowType.swift */; };
+		8912ED9E5E1AED4DDE4CDF9F3BF3936F /* Pods-DesafioFoton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D820D9623DB47B4B7048CD728D81AB /* Pods-DesafioFoton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A92D825C03E19810B5393EFDFE4502E /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EC2C087BBAE0228DFAD257A5ABF757 /* MultipleSelectorViewController.swift */; };
+		8AFA10B7F0591080EA6BCBCC9CB34BE1 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600285F5C2853F19AD204D48D3D64698 /* GenericMultipleSelectorRow.swift */; };
+		8CDD660210D5A535F6725F30259E629A /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69C307EC89B763A6CD514CDE262C02 /* PresenterRowType.swift */; };
+		A02F150A74062D9E29592D3EBD13B777 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E588D3BEB6128ECDF96810CF5784EB9 /* StepperRow.swift */; };
+		A4C99CE4C6D89F2107F6A280A0A85688 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3245DB461C6A4B39951BD9FFC4F458E4 /* HeaderFooterView.swift */; };
+		A77DA0652E7847FE296224EEB12F7EBD /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B5CF2252931156E77B9431A9EBA0F /* RuleLength.swift */; };
+		A91D4F561E5C16644A5D3A389609ACD6 /* DoublePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03351256E3B37BC9F7EB169A96BC7D97 /* DoublePickerRow.swift */; };
+		AAA33D7843F1F33E3F9D6F261AB5C2B3 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C2FCB94F934B614A96AA2870F2F8E /* PickerInlineRow.swift */; };
+		AADC2477F0EC2A446D3342DCA1E220C8 /* TriplePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C1C9B5AB5E4CC03C91D0732FC2816 /* TriplePickerInputRow.swift */; };
+		AC795F2AEFA1C804BABDB1D4931FAAEB /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53652FEF881142A691AB3CD7C2AF51D8 /* RowProtocols.swift */; };
+		AFCEB645D509F679CE8FBCFFEDBB65BC /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A784F3D94AEE7EDD7D57E642D80173 /* SwitchRow.swift */; };
+		B466D5B2650B7521FBE653FC9B7A793D /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E600E506C09767CE9989CDA0A95149 /* DateInlineRow.swift */; };
+		B490953386257F2C8E03C1D632AC361E /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC678E8793CAA24B07903F6162A5281 /* OptionsRow.swift */; };
+		B6DF9275361EA04A959E38F4133C33B7 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0C61F44C4A333DE5186AC6608CD0E /* SwipeActions.swift */; };
+		BA1F123F3ECF653AFD60C2E52C0D7A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BE93E023215A8B4A05A2AEC8B7FAE170 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC2FC9416C67F36AFC5268D5C37146 /* InlineRowType.swift */; };
+		C08713DF3DF904E55D8A3E3775A6F3EB /* TriplePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91642320B2512FBBC8A5231BCDF7EA99 /* TriplePickerRow.swift */; };
+		C0F073D21CF9CB5F87F3F21044E98BF0 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80F68F04FE4ECF6CB81FE47C72863 /* DateRow.swift */; };
+		C299DDF2CE31D8489EFFD0B9D086F9FE /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401FE0F4500DDCDF5DD64394E7BD74A /* SelectableSection.swift */; };
+		C2F5EF0076B32E28969F73229409F94E /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD637F8E1CF522D8F98A586E8732A2 /* DatePickerRow.swift */; };
+		C3A91839B066E50496881C02B95755AC /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C884D50AF4C4C00D54283526D0B7B4 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */; };
+		C4EB1DE2CCEE60A99EB5AA718DD67105 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C947DCBD4C9806CB0D061885992D62 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5562E6984BB0FDC8358F2737187DC90 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E87F8BA245EA6691BAB75E2B6A0A6 /* Helpers.swift */; };
+		C63B306D3FAA845771A0B1CEB3F0DC16 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991608B0DE11BC8DA3BEFEFE9FE9A8F3 /* TextAreaRow.swift */; };
+		C74F50DD266F0933B137D16ACD76FB1A /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A0045FC0E530426B1C4D9F163098E /* RuleURL.swift */; };
+		C831261CF70AECC8AC9DDFDBFC3F7172 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00088D06DF26CCA60D7F44D81B7437 /* LabelRow.swift */; };
+		C97BE76AAB5C7242509D8482EBA86AE9 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B06FC1B8D1DC39DE315A40EE6E2A5 /* Form.swift */; };
+		CEF27164EA8A8C1BCB66B7A75E287216 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E96899C4B7544E01A5C4F9DD2D4417 /* ActionSheetRow.swift */; };
+		D75CBD8D2B4526B7DE24212AB7B24D20 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76516FC2AD0727576893C4E06BFC7C3 /* RowControllerType.swift */; };
+		D7663970356A7FBA65579C1EB951220C /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7441F61E053951DDF170440BD49D3D /* SelectorRow.swift */; };
+		D9FAA26AD41D565773823B074F93D909 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41906B6C83AC668DE2D0CFB8AE874686 /* DateFieldRow.swift */; };
+		DFD06D79C71CCAEFA59D7DFBD706C493 /* DoublePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8811A4F93B963630805133431CCC08D /* DoublePickerInputRow.swift */; };
+		E0F369B772C5C8F0AF3A1C8BA5674628 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245EF03A090F7B9FD63D83BC661B9B66 /* ButtonRow.swift */; };
+		E3E2A605AF119D1F90CE77963E6CFD26 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31D7AA77F5A605425190C5AE8FA5064 /* SelectorAlertController.swift */; };
+		E7DA4EBBBFFF3EB6992CA11B921DD211 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242FD5672991FD612E9947D2F2250AF1 /* SegmentedRow.swift */; };
+		E987F386AA63D0DCD22642A475A8EFD7 /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157955A75E2D3B523269526E097CF662 /* PickerInputRow.swift */; };
+		E9AB923FC704B44222C8A5DB4145113A /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20777EA6FA4CD8EAC8EE468B0F9EF4A3 /* Core.swift */; };
+		EB9E8E94E8877C33E88295D89CF5D9CC /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B017C1352EBCD3359A0668F99AA0F83 /* RuleEqualsToRow.swift */; };
+		F20F0395D31337217935526D031702F1 /* Pods-DesafioFoton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108F2E0F871CFF58382AE13987D4849 /* Pods-DesafioFoton-dummy.m */; };
+		F2279E1339CC1B6326AD6FF389D24F96 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9514026D7CD71F7A87D7C46385DF0F /* DateInlineFieldRow.swift */; };
+		F47D1993C006C374C634B04421484A4D /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231C49570A295414E34DEDC7DFFEAFD /* AlertOptionsRow.swift */; };
+		FAC9A8D90EFBB8C5EC881B0349F8A832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		FECC68B085B27878A5C1F2FECC9F088F /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D28F71FB32548A3B51B28AFAC146C6 /* PushRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F5476875A0058B476B5185BB4E0869F /* PBXContainerItemProxy */ = {
+		07D067A6CDD83031B16DD77FFD0DA5A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		6FFB25B4E920F3647A3941B350B08D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		BB0699A6D51894E0F498A7BB42333843 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,51 +113,137 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		145B6D93A0CC55CC453177C1822B64C0 /* Pods-DesafioFoton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFoton.modulemap"; sourceTree = "<group>"; };
-		1D6E2C00753F8331E99E25989D818DE9 /* Pods-DesafioFotonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFotonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1E8CD81683BADB904A926A1012A9756B /* Pods-DesafioFoton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F6152CB9EE4058768DFCAD8DA1F139F /* Pods-DesafioFoton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFoton-dummy.m"; sourceTree = "<group>"; };
-		2885312E78747A9F5807446945E20E92 /* Pods-DesafioFoton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton.debug.xcconfig"; sourceTree = "<group>"; };
+		009B8828C60B253643D6DF95CC4406FB /* Pods-DesafioFotonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFotonTests-dummy.m"; sourceTree = "<group>"; };
+		00EDA9F5B037F0D2555AD7DB11F8CEBE /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
+		0108F2E0F871CFF58382AE13987D4849 /* Pods-DesafioFoton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFoton-dummy.m"; sourceTree = "<group>"; };
+		03351256E3B37BC9F7EB169A96BC7D97 /* DoublePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerRow.swift; path = Source/Rows/DoublePickerRow.swift; sourceTree = "<group>"; };
+		0355FB4754CB921A5EFB64942F626A25 /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
+		03F7C8A366CB7DC9EB773C7C78125140 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
+		0473C2D6B0725A73E11B4ABAAF68CC80 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
+		067C2D01120E96117BFB5B2149970422 /* Pods-DesafioFoton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DesafioFoton-frameworks.sh"; sourceTree = "<group>"; };
+		06AD637F8E1CF522D8F98A586E8732A2 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
+		06FFF9B63C4C2327ADD9EA8F889C1D45 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
+		082977F3777A7D434AB35C357B487F83 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7441F61E053951DDF170440BD49D3D /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
+		0DA0C61F44C4A333DE5186AC6608CD0E /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
+		0F4A0045FC0E530426B1C4D9F163098E /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		1242F19914C5181FC8CB9656A0090D09 /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		157955A75E2D3B523269526E097CF662 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
+		16EC2C087BBAE0228DFAD257A5ABF757 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		17E7D4910030E6201C58990A0C40A6C1 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFoton-DesafioFotonUITests-umbrella.h"; sourceTree = "<group>"; };
+		188B4762026782373350C66B8D701D01 /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18E1CE71EE1EC57F167700F025376BF0 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		1D17519237455C013113344841031BCB /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
+		1D25257EA207AA631EDBCE64FD24FAE8 /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		20777EA6FA4CD8EAC8EE468B0F9EF4A3 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
+		221B89CDD986386CF01595F01EAB0254 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		242FD5672991FD612E9947D2F2250AF1 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+		245EF03A090F7B9FD63D83BC661B9B66 /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		24EAE5A1A366F0A495950AD200A68326 /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		2808AFCE830657DA3A2F9D767A8F2147 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
 		28B0ABD151CFEDF3B28E5F6CE6B35325 /* Pods_DesafioFoton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DesafioFoton.framework; path = "Pods-DesafioFoton.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		372D28EA23910C24CB01FA79D4C5C99F /* Pods-DesafioFotonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFotonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3756AC71CA2714C03DC7D6B41D98FD94 /* Pods-DesafioFoton-DesafioFotonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFoton-DesafioFotonUITests.modulemap"; sourceTree = "<group>"; };
-		620A8217F4FAD1F11424374891E39616 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFoton-DesafioFotonUITests-dummy.m"; sourceTree = "<group>"; };
-		71F8A3F0D858A4E34D9E7765296D3A8E /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8356D8D1CDACBD75B4FCE2A50547A472 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C8B17550783DAFB5AC9D36696538A75 /* Pods-DesafioFoton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFoton-umbrella.h"; sourceTree = "<group>"; };
-		9D69C11AA7580AFE0EFD722C59CA4F16 /* Pods-DesafioFotonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFotonTests.modulemap"; sourceTree = "<group>"; };
+		2A3BBE3B4407C72B0994197B0FD2680E /* Pods-DesafioFotonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFotonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CC18E962F31B389BC7BC6F7C518ACB9 /* Pods-DesafioFotonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFotonTests-umbrella.h"; sourceTree = "<group>"; };
+		3245DB461C6A4B39951BD9FFC4F458E4 /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		3291A8C69584CC83351BCD3998DBDBFB /* Pods-DesafioFotonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFotonTests.modulemap"; sourceTree = "<group>"; };
+		3A0DD06B2EED1E7A3390F40E50F9E682 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		3C7CB88A15CBBB5D390456854141FFDB /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
+		3DD4D9220DE35C3558A9865B357611B5 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		3F86C39A1C2FE916A369D713F72827BB /* Pods-DesafioFoton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton.debug.xcconfig"; sourceTree = "<group>"; };
+		41906B6C83AC668DE2D0CFB8AE874686 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		44F48E4569C627DE425F6871138EFD2F /* Eureka-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Eureka-Info.plist"; sourceTree = "<group>"; };
+		4E69C307EC89B763A6CD514CDE262C02 /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		51DC2FC9416C67F36AFC5268D5C37146 /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		52C947DCBD4C9806CB0D061885992D62 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		52D9676456248228A9159B1240F9EF30 /* Pods-DesafioFoton-DesafioFotonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DesafioFoton-DesafioFotonUITests-frameworks.sh"; sourceTree = "<group>"; };
+		53652FEF881142A691AB3CD7C2AF51D8 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		597A51B461A1F2F60C6D5BA662C07377 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		600285F5C2853F19AD204D48D3D64698 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		60AAF934D977E73A7F16BCA0DD3C0C10 /* Pods-DesafioFotonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFotonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61F53FD062BD8412FDE34090B11BB915 /* Pods-DesafioFoton-DesafioFotonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFoton-DesafioFotonUITests.modulemap"; sourceTree = "<group>"; };
+		64E600E506C09767CE9989CDA0A95149 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
+		6B017C1352EBCD3359A0668F99AA0F83 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
+		6C3223EFA61518095D39E915B92366CF /* Pods-DesafioFoton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-Info.plist"; sourceTree = "<group>"; };
+		73928A9DA9641AAD7C1C27F3A6296F71 /* Pods-DesafioFoton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFoton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75D820D9623DB47B4B7048CD728D81AB /* Pods-DesafioFoton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFoton-umbrella.h"; sourceTree = "<group>"; };
+		773A0E44F49F5B2FB8580CE1ABF80B17 /* Pods-DesafioFotonTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFotonTests-Info.plist"; sourceTree = "<group>"; };
+		77C884D50AF4C4C00D54283526D0B7B4 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFoton-DesafioFotonUITests-dummy.m"; sourceTree = "<group>"; };
+		786AD4FCD9B59B7AD7F52B2FDDDD7C99 /* Pods-DesafioFoton-DesafioFotonUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-DesafioFotonUITests-Info.plist"; sourceTree = "<group>"; };
+		7D9514026D7CD71F7A87D7C46385DF0F /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		7F6B2218E24F5580CB5258C8BE50DC11 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		81C80F68F04FE4ECF6CB81FE47C72863 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
+		84DD61A18C5C08A6F4AA8F8F83A0B83D /* Pods-DesafioFoton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-acknowledgements.plist"; sourceTree = "<group>"; };
+		8564FA52F4DC6DACE26CD6E219A49CDB /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		8AC678E8793CAA24B07903F6162A5281 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		8E588D3BEB6128ECDF96810CF5784EB9 /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		91642320B2512FBBC8A5231BCDF7EA99 /* TriplePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerRow.swift; path = Source/Rows/TriplePickerRow.swift; sourceTree = "<group>"; };
+		91C23DA1BB1ADD370E225B030FF654D1 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		92449A651AD9398CF0C0ED289BEEBB17 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
+		931F77CF09DF1D33788CEDA9B1CF6C3C /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		939C371B33C8358F6F99580B96D2D234 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
+		93C3BF59B6B62A822652203E7C4B5BBC /* Eureka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.debug.xcconfig; sourceTree = "<group>"; };
+		9401FE0F4500DDCDF5DD64394E7BD74A /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
+		94B3B389CF6C2BB4F391A1A16FD0DA46 /* Eureka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.release.xcconfig; sourceTree = "<group>"; };
+		94DAACB802E5B0CCA6D77EAEEF59FCA3 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		9592738507D694A75946096A2AAAFB97 /* Pods-DesafioFotonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFotonTests.release.xcconfig"; sourceTree = "<group>"; };
+		961C2FCB94F934B614A96AA2870F2F8E /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		991608B0DE11BC8DA3BEFEFE9FE9A8F3 /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
+		99350297FE900C09FCED3BD40B29A0EA /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
+		9C1C1C9B5AB5E4CC03C91D0732FC2816 /* TriplePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerInputRow.swift; path = Source/Rows/TriplePickerInputRow.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2671F31E37B49F4D081B4086F331B82 /* Pods-DesafioFotonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFotonTests-umbrella.h"; sourceTree = "<group>"; };
-		A4355962919C8323B4E64BDFCC356E5F /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A7CA893B9FC360538AC40FC4FF304C70 /* Pods-DesafioFotonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFotonTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD400221CE66F8A72959ACC64EACC00C /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8811A4F93B963630805133431CCC08D /* DoublePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerInputRow.swift; path = Source/Rows/DoublePickerInputRow.swift; sourceTree = "<group>"; };
+		A9D28F71FB32548A3B51B28AFAC146C6 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		ABDE8B76D0E6A7804FF62F5747D8C52F /* Pods-DesafioFoton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DesafioFoton.modulemap"; sourceTree = "<group>"; };
+		AE5B06FC1B8D1DC39DE315A40EE6E2A5 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
 		B03A993EA8561AB7300562032A709841 /* Pods_DesafioFoton_DesafioFotonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DesafioFoton_DesafioFotonUITests.framework; path = "Pods-DesafioFoton-DesafioFotonUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B491719638FE5F3B65F907A0B55611CC /* Pods_DesafioFotonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DesafioFotonTests.framework; path = "Pods-DesafioFotonTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBAE47A37721EECBDEC50932FE873CB4 /* Pods-DesafioFotonTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFotonTests-Info.plist"; sourceTree = "<group>"; };
-		C801BDF908168513A12DDF503C54CE5B /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesafioFoton-DesafioFotonUITests-umbrella.h"; sourceTree = "<group>"; };
-		D616F5148F6470584ED790D6C3B81124 /* Pods-DesafioFotonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFotonTests.release.xcconfig"; sourceTree = "<group>"; };
-		DD2DBAFF859E36A0AEE491C45FFFF09D /* Pods-DesafioFoton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-Info.plist"; sourceTree = "<group>"; };
-		DD7E40BB6B12EC9DE440F4AB5A07E10E /* Pods-DesafioFotonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DesafioFotonTests-dummy.m"; sourceTree = "<group>"; };
-		DFC9A65A18B2F2C7798363262F1C1EAC /* Pods-DesafioFoton-DesafioFotonUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesafioFoton-DesafioFotonUITests-Info.plist"; sourceTree = "<group>"; };
-		F57DF49F1056E22337500B845D598F96 /* Pods-DesafioFoton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton.release.xcconfig"; sourceTree = "<group>"; };
-		FC81DF45AEF44D7AB5C68F0FA3285543 /* Pods-DesafioFoton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFoton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE6B5CF2252931156E77B9431A9EBA0F /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		C114D89A28EC0958D02C7FB095ADEB9C /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		CBC15042DAE266E8A17A0C9C0DFED7E7 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D18E5385FE2A34349907D3896297B477 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D35E87F8BA245EA6691BAB75E2B6A0A6 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		E2A47970C084CF35D1E603271AA4BF1F /* Pods-DesafioFoton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton.release.xcconfig"; sourceTree = "<group>"; };
+		E31D7AA77F5A605425190C5AE8FA5064 /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		E4F562FE0389F3EE4D7F7E1B6F244BE6 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
+		E624DBEB996104950E796439C4C4ACE4 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
+		E76516FC2AD0727576893C4E06BFC7C3 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		E9162390A100741AACC5C89F95EE36B2 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
+		E99C76C0B400E4D680BB00EA65BF61D1 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F231C49570A295414E34DEDC7DFFEAFD /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
+		F4B96610E194131035E0E27F7788B771 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A784F3D94AEE7EDD7D57E642D80173 /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		F8A07BA63FEA17A562598C7F2B35C78A /* Pods-DesafioFotonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFotonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8E96899C4B7544E01A5C4F9DD2D4417 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		FC47724FD908563846B6944ADA4F1035 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
+		FDC39757D8981B853B7C1EDF97417DFC /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF00088D06DF26CCA60D7F44D81B7437 /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75792B0170EF74ED748C0EA2ADAA035A /* Frameworks */ = {
+		79EADAA74123D058075B7B062E2F1852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CB4E540439505898655E94ABD462730 /* Foundation.framework in Frameworks */,
+				712C67E8BC81CC2AD569927CF75C0B96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BC9D235E7FE2B09ECEF0E4B02715FD4 /* Frameworks */ = {
+		7C739679CAE74D90F140F5EDC0EE4EC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5141A1CC233D1439F5177B022700CE4 /* Foundation.framework in Frameworks */,
+				BA1F123F3ECF653AFD60C2E52C0D7A08 /* Foundation.framework in Frameworks */,
+				184715569ECE8F58C7DE753E6CB01F1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E934796C382732BDFFE1B71576B525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6384CBA5E0C947FCDB049913443407F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +258,196 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17906A823EA036EE23BF818A39B44F66 /* Products */ = {
+		0E498C66BB9180E9D2C5D62B42EF153E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				74C091241870871571B301E4305B4076 /* Eureka */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32D1001053D2A6BC27E0A67666F97074 /* Pods-DesafioFoton */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE8B76D0E6A7804FF62F5747D8C52F /* Pods-DesafioFoton.modulemap */,
+				73928A9DA9641AAD7C1C27F3A6296F71 /* Pods-DesafioFoton-acknowledgements.markdown */,
+				84DD61A18C5C08A6F4AA8F8F83A0B83D /* Pods-DesafioFoton-acknowledgements.plist */,
+				0108F2E0F871CFF58382AE13987D4849 /* Pods-DesafioFoton-dummy.m */,
+				067C2D01120E96117BFB5B2149970422 /* Pods-DesafioFoton-frameworks.sh */,
+				6C3223EFA61518095D39E915B92366CF /* Pods-DesafioFoton-Info.plist */,
+				75D820D9623DB47B4B7048CD728D81AB /* Pods-DesafioFoton-umbrella.h */,
+				3F86C39A1C2FE916A369D713F72827BB /* Pods-DesafioFoton.debug.xcconfig */,
+				E2A47970C084CF35D1E603271AA4BF1F /* Pods-DesafioFoton.release.xcconfig */,
+			);
+			name = "Pods-DesafioFoton";
+			path = "Target Support Files/Pods-DesafioFoton";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CA5827A13AB647B8CC5830C098EDAA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D1001053D2A6BC27E0A67666F97074 /* Pods-DesafioFoton */,
+				6820ECB69595823C8F0DDFC4D8529DA7 /* Pods-DesafioFoton-DesafioFotonUITests */,
+				852F2D21874504B9F19BD6FE0EB30993 /* Pods-DesafioFotonTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6820ECB69595823C8F0DDFC4D8529DA7 /* Pods-DesafioFoton-DesafioFotonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61F53FD062BD8412FDE34090B11BB915 /* Pods-DesafioFoton-DesafioFotonUITests.modulemap */,
+				FDC39757D8981B853B7C1EDF97417DFC /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown */,
+				188B4762026782373350C66B8D701D01 /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist */,
+				77C884D50AF4C4C00D54283526D0B7B4 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */,
+				52D9676456248228A9159B1240F9EF30 /* Pods-DesafioFoton-DesafioFotonUITests-frameworks.sh */,
+				786AD4FCD9B59B7AD7F52B2FDDDD7C99 /* Pods-DesafioFoton-DesafioFotonUITests-Info.plist */,
+				17E7D4910030E6201C58990A0C40A6C1 /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */,
+				F4B96610E194131035E0E27F7788B771 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */,
+				CBC15042DAE266E8A17A0C9C0DFED7E7 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */,
+			);
+			name = "Pods-DesafioFoton-DesafioFotonUITests";
+			path = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests";
+			sourceTree = "<group>";
+		};
+		74C091241870871571B301E4305B4076 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				F8E96899C4B7544E01A5C4F9DD2D4417 /* ActionSheetRow.swift */,
+				F231C49570A295414E34DEDC7DFFEAFD /* AlertOptionsRow.swift */,
+				597A51B461A1F2F60C6D5BA662C07377 /* AlertRow.swift */,
+				1242F19914C5181FC8CB9656A0090D09 /* BaseRow.swift */,
+				245EF03A090F7B9FD63D83BC661B9B66 /* ButtonRow.swift */,
+				C114D89A28EC0958D02C7FB095ADEB9C /* ButtonRowWithPresent.swift */,
+				3A0DD06B2EED1E7A3390F40E50F9E682 /* Cell.swift */,
+				8564FA52F4DC6DACE26CD6E219A49CDB /* CellType.swift */,
+				D18E5385FE2A34349907D3896297B477 /* CheckRow.swift */,
+				20777EA6FA4CD8EAC8EE468B0F9EF4A3 /* Core.swift */,
+				41906B6C83AC668DE2D0CFB8AE874686 /* DateFieldRow.swift */,
+				7D9514026D7CD71F7A87D7C46385DF0F /* DateInlineFieldRow.swift */,
+				64E600E506C09767CE9989CDA0A95149 /* DateInlineRow.swift */,
+				06AD637F8E1CF522D8F98A586E8732A2 /* DatePickerRow.swift */,
+				81C80F68F04FE4ECF6CB81FE47C72863 /* DateRow.swift */,
+				24EAE5A1A366F0A495950AD200A68326 /* DecimalFormatter.swift */,
+				A8811A4F93B963630805133431CCC08D /* DoublePickerInputRow.swift */,
+				03351256E3B37BC9F7EB169A96BC7D97 /* DoublePickerRow.swift */,
+				7F6B2218E24F5580CB5258C8BE50DC11 /* FieldRow.swift */,
+				E4F562FE0389F3EE4D7F7E1B6F244BE6 /* FieldsRow.swift */,
+				AE5B06FC1B8D1DC39DE315A40EE6E2A5 /* Form.swift */,
+				600285F5C2853F19AD204D48D3D64698 /* GenericMultipleSelectorRow.swift */,
+				3245DB461C6A4B39951BD9FFC4F458E4 /* HeaderFooterView.swift */,
+				D35E87F8BA245EA6691BAB75E2B6A0A6 /* Helpers.swift */,
+				51DC2FC9416C67F36AFC5268D5C37146 /* InlineRowType.swift */,
+				FF00088D06DF26CCA60D7F44D81B7437 /* LabelRow.swift */,
+				1D17519237455C013113344841031BCB /* ListCheckRow.swift */,
+				E99C76C0B400E4D680BB00EA65BF61D1 /* MultipleSelectorRow.swift */,
+				16EC2C087BBAE0228DFAD257A5ABF757 /* MultipleSelectorViewController.swift */,
+				2808AFCE830657DA3A2F9D767A8F2147 /* NavigationAccessoryView.swift */,
+				221B89CDD986386CF01595F01EAB0254 /* Operators.swift */,
+				8AC678E8793CAA24B07903F6162A5281 /* OptionsRow.swift */,
+				961C2FCB94F934B614A96AA2870F2F8E /* PickerInlineRow.swift */,
+				157955A75E2D3B523269526E097CF662 /* PickerInputRow.swift */,
+				94DAACB802E5B0CCA6D77EAEEF59FCA3 /* PickerRow.swift */,
+				99350297FE900C09FCED3BD40B29A0EA /* PopoverSelectorRow.swift */,
+				4E69C307EC89B763A6CD514CDE262C02 /* PresenterRowType.swift */,
+				92449A651AD9398CF0C0ED289BEEBB17 /* Protocols.swift */,
+				A9D28F71FB32548A3B51B28AFAC146C6 /* PushRow.swift */,
+				3DD4D9220DE35C3558A9865B357611B5 /* Row.swift */,
+				E76516FC2AD0727576893C4E06BFC7C3 /* RowControllerType.swift */,
+				53652FEF881142A691AB3CD7C2AF51D8 /* RowProtocols.swift */,
+				3C7CB88A15CBBB5D390456854141FFDB /* RowType.swift */,
+				931F77CF09DF1D33788CEDA9B1CF6C3C /* RuleClosure.swift */,
+				E9162390A100741AACC5C89F95EE36B2 /* RuleEmail.swift */,
+				6B017C1352EBCD3359A0668F99AA0F83 /* RuleEqualsToRow.swift */,
+				BE6B5CF2252931156E77B9431A9EBA0F /* RuleLength.swift */,
+				E624DBEB996104950E796439C4C4ACE4 /* RuleRange.swift */,
+				1D25257EA207AA631EDBCE64FD24FAE8 /* RuleRegExp.swift */,
+				0355FB4754CB921A5EFB64942F626A25 /* RuleRequired.swift */,
+				0F4A0045FC0E530426B1C4D9F163098E /* RuleURL.swift */,
+				03F7C8A366CB7DC9EB773C7C78125140 /* Section.swift */,
+				242FD5672991FD612E9947D2F2250AF1 /* SegmentedRow.swift */,
+				FC47724FD908563846B6944ADA4F1035 /* SelectableRowType.swift */,
+				9401FE0F4500DDCDF5DD64394E7BD74A /* SelectableSection.swift */,
+				E31D7AA77F5A605425190C5AE8FA5064 /* SelectorAlertController.swift */,
+				0C7441F61E053951DDF170440BD49D3D /* SelectorRow.swift */,
+				939C371B33C8358F6F99580B96D2D234 /* SelectorViewController.swift */,
+				00EDA9F5B037F0D2555AD7DB11F8CEBE /* SliderRow.swift */,
+				8E588D3BEB6128ECDF96810CF5784EB9 /* StepperRow.swift */,
+				0DA0C61F44C4A333DE5186AC6608CD0E /* SwipeActions.swift */,
+				F5A784F3D94AEE7EDD7D57E642D80173 /* SwitchRow.swift */,
+				991608B0DE11BC8DA3BEFEFE9FE9A8F3 /* TextAreaRow.swift */,
+				9C1C1C9B5AB5E4CC03C91D0732FC2816 /* TriplePickerInputRow.swift */,
+				91642320B2512FBBC8A5231BCDF7EA99 /* TriplePickerRow.swift */,
+				06FFF9B63C4C2327ADD9EA8F889C1D45 /* Validation.swift */,
+				A13A722ED190189AEA2744246E4A05B6 /* Support Files */,
+			);
+			name = Eureka;
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		852F2D21874504B9F19BD6FE0EB30993 /* Pods-DesafioFotonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3291A8C69584CC83351BCD3998DBDBFB /* Pods-DesafioFotonTests.modulemap */,
+				F8A07BA63FEA17A562598C7F2B35C78A /* Pods-DesafioFotonTests-acknowledgements.markdown */,
+				60AAF934D977E73A7F16BCA0DD3C0C10 /* Pods-DesafioFotonTests-acknowledgements.plist */,
+				009B8828C60B253643D6DF95CC4406FB /* Pods-DesafioFotonTests-dummy.m */,
+				773A0E44F49F5B2FB8580CE1ABF80B17 /* Pods-DesafioFotonTests-Info.plist */,
+				2CC18E962F31B389BC7BC6F7C518ACB9 /* Pods-DesafioFotonTests-umbrella.h */,
+				2A3BBE3B4407C72B0994197B0FD2680E /* Pods-DesafioFotonTests.debug.xcconfig */,
+				9592738507D694A75946096A2AAAFB97 /* Pods-DesafioFotonTests.release.xcconfig */,
+			);
+			name = "Pods-DesafioFotonTests";
+			path = "Target Support Files/Pods-DesafioFotonTests";
+			sourceTree = "<group>";
+		};
+		A13A722ED190189AEA2744246E4A05B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0473C2D6B0725A73E11B4ABAAF68CC80 /* Eureka.modulemap */,
+				91C23DA1BB1ADD370E225B030FF654D1 /* Eureka-dummy.m */,
+				44F48E4569C627DE425F6871138EFD2F /* Eureka-Info.plist */,
+				18E1CE71EE1EC57F167700F025376BF0 /* Eureka-prefix.pch */,
+				52C947DCBD4C9806CB0D061885992D62 /* Eureka-umbrella.h */,
+				93C3BF59B6B62A822652203E7C4B5BBC /* Eureka.debug.xcconfig */,
+				94B3B389CF6C2BB4F391A1A16FD0DA46 /* Eureka.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				0E498C66BB9180E9D2C5D62B42EF153E /* Pods */,
+				FE992F276F9F93591BB8675FAAAFA8FB /* Products */,
+				5CA5827A13AB647B8CC5830C098EDAA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FE992F276F9F93591BB8675FAAAFA8FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082977F3777A7D434AB35C357B487F83 /* Eureka.framework */,
 				28B0ABD151CFEDF3B28E5F6CE6B35325 /* Pods_DesafioFoton.framework */,
 				B03A993EA8561AB7300562032A709841 /* Pods_DesafioFoton_DesafioFotonUITests.framework */,
 				B491719638FE5F3B65F907A0B55611CC /* Pods_DesafioFotonTests.framework */,
@@ -98,93 +455,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		352CF371446436A1D10C5BDC0A4EB613 /* Pods-DesafioFoton-DesafioFotonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3756AC71CA2714C03DC7D6B41D98FD94 /* Pods-DesafioFoton-DesafioFotonUITests.modulemap */,
-				AD400221CE66F8A72959ACC64EACC00C /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.markdown */,
-				A4355962919C8323B4E64BDFCC356E5F /* Pods-DesafioFoton-DesafioFotonUITests-acknowledgements.plist */,
-				620A8217F4FAD1F11424374891E39616 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m */,
-				DFC9A65A18B2F2C7798363262F1C1EAC /* Pods-DesafioFoton-DesafioFotonUITests-Info.plist */,
-				C801BDF908168513A12DDF503C54CE5B /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h */,
-				8356D8D1CDACBD75B4FCE2A50547A472 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */,
-				71F8A3F0D858A4E34D9E7765296D3A8E /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */,
-			);
-			name = "Pods-DesafioFoton-DesafioFotonUITests";
-			path = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BB7861C470F1D60ED179042951E763F4 /* Pods-DesafioFoton */ = {
-			isa = PBXGroup;
-			children = (
-				145B6D93A0CC55CC453177C1822B64C0 /* Pods-DesafioFoton.modulemap */,
-				FC81DF45AEF44D7AB5C68F0FA3285543 /* Pods-DesafioFoton-acknowledgements.markdown */,
-				1E8CD81683BADB904A926A1012A9756B /* Pods-DesafioFoton-acknowledgements.plist */,
-				1F6152CB9EE4058768DFCAD8DA1F139F /* Pods-DesafioFoton-dummy.m */,
-				DD2DBAFF859E36A0AEE491C45FFFF09D /* Pods-DesafioFoton-Info.plist */,
-				9C8B17550783DAFB5AC9D36696538A75 /* Pods-DesafioFoton-umbrella.h */,
-				2885312E78747A9F5807446945E20E92 /* Pods-DesafioFoton.debug.xcconfig */,
-				F57DF49F1056E22337500B845D598F96 /* Pods-DesafioFoton.release.xcconfig */,
-			);
-			name = "Pods-DesafioFoton";
-			path = "Target Support Files/Pods-DesafioFoton";
-			sourceTree = "<group>";
-		};
-		CF1408CF629C7361332E53B88F7BD30C = {
-			isa = PBXGroup;
-			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				17906A823EA036EE23BF818A39B44F66 /* Products */,
-				D0DB94BFAFF559F4D4A4486E7EBA1914 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D0DB94BFAFF559F4D4A4486E7EBA1914 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB7861C470F1D60ED179042951E763F4 /* Pods-DesafioFoton */,
-				352CF371446436A1D10C5BDC0A4EB613 /* Pods-DesafioFoton-DesafioFotonUITests */,
-				E59BCF0BE327B287B9FA994DA29C0E32 /* Pods-DesafioFotonTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E59BCF0BE327B287B9FA994DA29C0E32 /* Pods-DesafioFotonTests */ = {
-			isa = PBXGroup;
-			children = (
-				9D69C11AA7580AFE0EFD722C59CA4F16 /* Pods-DesafioFotonTests.modulemap */,
-				372D28EA23910C24CB01FA79D4C5C99F /* Pods-DesafioFotonTests-acknowledgements.markdown */,
-				A7CA893B9FC360538AC40FC4FF304C70 /* Pods-DesafioFotonTests-acknowledgements.plist */,
-				DD7E40BB6B12EC9DE440F4AB5A07E10E /* Pods-DesafioFotonTests-dummy.m */,
-				BBAE47A37721EECBDEC50932FE873CB4 /* Pods-DesafioFotonTests-Info.plist */,
-				A2671F31E37B49F4D081B4086F331B82 /* Pods-DesafioFotonTests-umbrella.h */,
-				1D6E2C00753F8331E99E25989D818DE9 /* Pods-DesafioFotonTests.debug.xcconfig */,
-				D616F5148F6470584ED790D6C3B81124 /* Pods-DesafioFotonTests.release.xcconfig */,
-			);
-			name = "Pods-DesafioFotonTests";
-			path = "Target Support Files/Pods-DesafioFotonTests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2D009D8E56C7AA4EF2C7DACCDAB78EA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912ED9E5E1AED4DDE4CDF9F3BF3936F /* Pods-DesafioFoton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46DD1B00D480A74F27790562AE1F8652 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,19 +474,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ED2AA3D6565695070994D4266F51CC4 /* Headers */ = {
+		666555F793EB34B63B85899E8AA9575D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D806931D5B7EE9B98DA2E0787C9925C /* Pods-DesafioFoton-umbrella.h in Headers */,
+				5D830D2E4071C40DEF82F88D7C51C44D /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F63D8B1BCEBED90B2674690B4F5A3661 /* Headers */ = {
+		7DD3157FBDD386B4916158C875050C47 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B63E77B2DFAEBC7D8C97576644853D /* Pods-DesafioFoton-DesafioFotonUITests-umbrella.h in Headers */,
+				C4EB1DE2CCEE60A99EB5AA718DD67105 /* Eureka-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,16 +495,17 @@
 /* Begin PBXNativeTarget section */
 		4C195B81DA61A8A81C5B08EEF2261CFB /* Pods-DesafioFoton-DesafioFotonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19B944F1DC66FC6A4DF12D933A5D0337 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */;
+			buildConfigurationList = EAB316568A10D734653923281609E4D1 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */;
 			buildPhases = (
-				F63D8B1BCEBED90B2674690B4F5A3661 /* Headers */,
-				006FA0AB2F73503D46F446EB125E8E27 /* Sources */,
-				9BC9D235E7FE2B09ECEF0E4B02715FD4 /* Frameworks */,
-				CEF77F1755874E335307E9F240E53D5D /* Resources */,
+				666555F793EB34B63B85899E8AA9575D /* Headers */,
+				AEFC009C883553A05A29A3C8AC012E29 /* Sources */,
+				79EADAA74123D058075B7B062E2F1852 /* Frameworks */,
+				9033A2DA8055CBF044F559957435233B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CD8F8F7858D8D1BD9D416572B03A0E9F /* PBXTargetDependency */,
 			);
 			name = "Pods-DesafioFoton-DesafioFotonUITests";
 			productName = "Pods-DesafioFoton-DesafioFotonUITests";
@@ -242,7 +524,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				53B44BAF1F35CD186DA9EA1B31E404C6 /* PBXTargetDependency */,
+				E1B72211C9B75546BF992C8C55EE2A2C /* PBXTargetDependency */,
 			);
 			name = "Pods-DesafioFotonTests";
 			productName = "Pods-DesafioFotonTests";
@@ -251,20 +533,39 @@
 		};
 		7AB67D247E7A8675ECE939019BC050BE /* Pods-DesafioFoton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DB64C5F69619D67E82691795CAF3829 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */;
+			buildConfigurationList = 1FE7BA3A9E4B61C658081FBA76C5D6A6 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */;
 			buildPhases = (
-				8ED2AA3D6565695070994D4266F51CC4 /* Headers */,
-				1F7BB65CD1DEFFA5C214F9DA12AB0F34 /* Sources */,
-				75792B0170EF74ED748C0EA2ADAA035A /* Frameworks */,
-				4263562DB62168F8DA5AF952C84021FE /* Resources */,
+				2D009D8E56C7AA4EF2C7DACCDAB78EA2 /* Headers */,
+				1D5F62B9155A3E8C20ED69C51B3B45EC /* Sources */,
+				92E934796C382732BDFFE1B71576B525 /* Frameworks */,
+				4FEFAF941CB12F453553B5DE7DD94939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777D0B782C3FEA209AD7443EADC58547 /* PBXTargetDependency */,
+			);
+			name = "Pods-DesafioFoton";
+			productName = "Pods-DesafioFoton";
+			productReference = 28B0ABD151CFEDF3B28E5F6CE6B35325 /* Pods_DesafioFoton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36778B42AB96755AAFA8AF892C40E50E /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				7DD3157FBDD386B4916158C875050C47 /* Headers */,
+				112A449208BD77617F656312EA4943E8 /* Sources */,
+				7C739679CAE74D90F140F5EDC0EE4EC0 /* Frameworks */,
+				C6AFE590176E3A846DAE473492B8ADE1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-DesafioFoton";
-			productName = "Pods-DesafioFoton";
-			productReference = 28B0ABD151CFEDF3B28E5F6CE6B35325 /* Pods_DesafioFoton.framework */;
+			name = Eureka;
+			productName = Eureka;
+			productReference = 082977F3777A7D434AB35C357B487F83 /* Eureka.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -285,10 +586,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 17906A823EA036EE23BF818A39B44F66 /* Products */;
+			productRefGroup = FE992F276F9F93591BB8675FAAAFA8FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */,
 				7AB67D247E7A8675ECE939019BC050BE /* Pods-DesafioFoton */,
 				4C195B81DA61A8A81C5B08EEF2261CFB /* Pods-DesafioFoton-DesafioFotonUITests */,
 				4F992E0A7AC4C82AE77FD86DE7D25840 /* Pods-DesafioFotonTests */,
@@ -304,14 +606,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4263562DB62168F8DA5AF952C84021FE /* Resources */ = {
+		4FEFAF941CB12F453553B5DE7DD94939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEF77F1755874E335307E9F240E53D5D /* Resources */ = {
+		9033A2DA8055CBF044F559957435233B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AFE590176E3A846DAE473492B8ADE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,14 +630,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		006FA0AB2F73503D46F446EB125E8E27 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E511960C693625F45C02FE1CFAFB35A3 /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		018D1D8BB33C43603144DDCEE694E856 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,29 +638,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7BB65CD1DEFFA5C214F9DA12AB0F34 /* Sources */ = {
+		112A449208BD77617F656312EA4943E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ECD5CE0394F7BC04F2D7301F682F862 /* Pods-DesafioFoton-dummy.m in Sources */,
+				CEF27164EA8A8C1BCB66B7A75E287216 /* ActionSheetRow.swift in Sources */,
+				F47D1993C006C374C634B04421484A4D /* AlertOptionsRow.swift in Sources */,
+				3BF29BEA4C1FF7360E93882C9D6C2A7C /* AlertRow.swift in Sources */,
+				1BB933C505E10805A9E179E3DD2CA17E /* BaseRow.swift in Sources */,
+				E0F369B772C5C8F0AF3A1C8BA5674628 /* ButtonRow.swift in Sources */,
+				01E1380B9DAEF7517AD42713A8CB716E /* ButtonRowWithPresent.swift in Sources */,
+				57DA9857A10221E5D429C48B85BB0010 /* Cell.swift in Sources */,
+				62E99A538A3363A9013DCCBF519B876F /* CellType.swift in Sources */,
+				119C3D64BDFECAB92F4FFCEF9B4F135D /* CheckRow.swift in Sources */,
+				E9AB923FC704B44222C8A5DB4145113A /* Core.swift in Sources */,
+				D9FAA26AD41D565773823B074F93D909 /* DateFieldRow.swift in Sources */,
+				F2279E1339CC1B6326AD6FF389D24F96 /* DateInlineFieldRow.swift in Sources */,
+				B466D5B2650B7521FBE653FC9B7A793D /* DateInlineRow.swift in Sources */,
+				C2F5EF0076B32E28969F73229409F94E /* DatePickerRow.swift in Sources */,
+				C0F073D21CF9CB5F87F3F21044E98BF0 /* DateRow.swift in Sources */,
+				0D7339D0D404F9C394637DDFE383A7A8 /* DecimalFormatter.swift in Sources */,
+				DFD06D79C71CCAEFA59D7DFBD706C493 /* DoublePickerInputRow.swift in Sources */,
+				A91D4F561E5C16644A5D3A389609ACD6 /* DoublePickerRow.swift in Sources */,
+				7CDE8FB3A24BA483F4D2AFB70D990F70 /* Eureka-dummy.m in Sources */,
+				27A3F7981DF0B5CFCB2E56AABBEAA319 /* FieldRow.swift in Sources */,
+				052CDA13B29437A2FDCD9D19230AD39F /* FieldsRow.swift in Sources */,
+				C97BE76AAB5C7242509D8482EBA86AE9 /* Form.swift in Sources */,
+				8AFA10B7F0591080EA6BCBCC9CB34BE1 /* GenericMultipleSelectorRow.swift in Sources */,
+				A4C99CE4C6D89F2107F6A280A0A85688 /* HeaderFooterView.swift in Sources */,
+				C5562E6984BB0FDC8358F2737187DC90 /* Helpers.swift in Sources */,
+				BE93E023215A8B4A05A2AEC8B7FAE170 /* InlineRowType.swift in Sources */,
+				C831261CF70AECC8AC9DDFDBFC3F7172 /* LabelRow.swift in Sources */,
+				4D5CAEA66E12CA438CD7B4FA78BB6186 /* ListCheckRow.swift in Sources */,
+				56EB318A58A511C6BE4098E8EAD6A7C0 /* MultipleSelectorRow.swift in Sources */,
+				8A92D825C03E19810B5393EFDFE4502E /* MultipleSelectorViewController.swift in Sources */,
+				45D64D81FC93E350F19E7A28A8A8FDAC /* NavigationAccessoryView.swift in Sources */,
+				5F5515249E1A20C230755D2E8001F3FC /* Operators.swift in Sources */,
+				B490953386257F2C8E03C1D632AC361E /* OptionsRow.swift in Sources */,
+				AAA33D7843F1F33E3F9D6F261AB5C2B3 /* PickerInlineRow.swift in Sources */,
+				E987F386AA63D0DCD22642A475A8EFD7 /* PickerInputRow.swift in Sources */,
+				5A8396B9DDE887F7C397B7EEBC4163AA /* PickerRow.swift in Sources */,
+				61D928089445221BAB80A8DB76A68904 /* PopoverSelectorRow.swift in Sources */,
+				8CDD660210D5A535F6725F30259E629A /* PresenterRowType.swift in Sources */,
+				5A02CFF7195D1A7592F777170D8FC6D9 /* Protocols.swift in Sources */,
+				FECC68B085B27878A5C1F2FECC9F088F /* PushRow.swift in Sources */,
+				5FA0AFCA94E1291506DC54D03765FA22 /* Row.swift in Sources */,
+				D75CBD8D2B4526B7DE24212AB7B24D20 /* RowControllerType.swift in Sources */,
+				AC795F2AEFA1C804BABDB1D4931FAAEB /* RowProtocols.swift in Sources */,
+				821C23BCC87386E7EDAAF97B3C4F1D5D /* RowType.swift in Sources */,
+				2E5AD5FC9F45A7F38F5F5BC6FF7570E9 /* RuleClosure.swift in Sources */,
+				6D13C3C40D5F2B21B4491B81002F2894 /* RuleEmail.swift in Sources */,
+				EB9E8E94E8877C33E88295D89CF5D9CC /* RuleEqualsToRow.swift in Sources */,
+				A77DA0652E7847FE296224EEB12F7EBD /* RuleLength.swift in Sources */,
+				07572F1826C958646848D4EF5DBF377E /* RuleRange.swift in Sources */,
+				2D144E1543B0B44E364EFEC4E6CFE8D5 /* RuleRegExp.swift in Sources */,
+				05C88AAB95E98E3296996797706F19AF /* RuleRequired.swift in Sources */,
+				C74F50DD266F0933B137D16ACD76FB1A /* RuleURL.swift in Sources */,
+				5A1A55188705CB82F540F58D2910AB93 /* Section.swift in Sources */,
+				E7DA4EBBBFFF3EB6992CA11B921DD211 /* SegmentedRow.swift in Sources */,
+				553F2C40EE9B6C0A1CC57FC2894455CD /* SelectableRowType.swift in Sources */,
+				C299DDF2CE31D8489EFFD0B9D086F9FE /* SelectableSection.swift in Sources */,
+				E3E2A605AF119D1F90CE77963E6CFD26 /* SelectorAlertController.swift in Sources */,
+				D7663970356A7FBA65579C1EB951220C /* SelectorRow.swift in Sources */,
+				74EC68DA659219AB56A917312A73EA7D /* SelectorViewController.swift in Sources */,
+				6706FE594A5FC58BE59F7AA454982D93 /* SliderRow.swift in Sources */,
+				A02F150A74062D9E29592D3EBD13B777 /* StepperRow.swift in Sources */,
+				B6DF9275361EA04A959E38F4133C33B7 /* SwipeActions.swift in Sources */,
+				AFCEB645D509F679CE8FBCFFEDBB65BC /* SwitchRow.swift in Sources */,
+				C63B306D3FAA845771A0B1CEB3F0DC16 /* TextAreaRow.swift in Sources */,
+				AADC2477F0EC2A446D3342DCA1E220C8 /* TriplePickerInputRow.swift in Sources */,
+				C08713DF3DF904E55D8A3E3775A6F3EB /* TriplePickerRow.swift in Sources */,
+				7005C904B5F05004C2BC6703E8B14F39 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5F62B9155A3E8C20ED69C51B3B45EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20F0395D31337217935526D031702F1 /* Pods-DesafioFoton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFC009C883553A05A29A3C8AC012E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A91839B066E50496881C02B95755AC /* Pods-DesafioFoton-DesafioFotonUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53B44BAF1F35CD186DA9EA1B31E404C6 /* PBXTargetDependency */ = {
+		777D0B782C3FEA209AD7443EADC58547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = 6FFB25B4E920F3647A3941B350B08D47 /* PBXContainerItemProxy */;
+		};
+		CD8F8F7858D8D1BD9D416572B03A0E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = 07D067A6CDD83031B16DD77FFD0DA5A5 /* PBXContainerItemProxy */;
+		};
+		E1B72211C9B75546BF992C8C55EE2A2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DesafioFoton";
 			target = 7AB67D247E7A8675ECE939019BC050BE /* Pods-DesafioFoton */;
-			targetProxy = 1F5476875A0058B476B5185BB4E0869F /* PBXContainerItemProxy */;
+			targetProxy = BB0699A6D51894E0F498A7BB42333843 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		166110F9CCFFF4190AF1B8627096ACD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D6E2C00753F8331E99E25989D818DE9 /* Pods-DesafioFotonTests.debug.xcconfig */;
+			baseConfigurationReference = 2A3BBE3B4407C72B0994197B0FD2680E /* Pods-DesafioFotonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -459,12 +854,10 @@
 			};
 			name = Debug;
 		};
-		6FCFE942A6EE3500685D8AF8B17D51EC /* Debug */ = {
+		2970C634118E91C13265B794D78E6C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8356D8D1CDACBD75B4FCE2A50547A472 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */;
+			baseConfigurationReference = 93C3BF59B6B62A822652203E7C4B5BBC /* Eureka.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -473,32 +866,66 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Eureka-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				PRODUCT_MODULE_NAME = Eureka;
+				PRODUCT_NAME = Eureka;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		4D1E7B2E04601C0A0A43D8E65EC4051B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B3B389CF6C2BB4F391A1A16FD0DA46 /* Eureka.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Eureka-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				PRODUCT_MODULE_NAME = Eureka;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7FC007B43D9F1DF53B74B089B0688564 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D616F5148F6470584ED790D6C3B81124 /* Pods-DesafioFotonTests.release.xcconfig */;
+			baseConfigurationReference = 9592738507D694A75946096A2AAAFB97 /* Pods-DesafioFotonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -534,9 +961,9 @@
 			};
 			name = Release;
 		};
-		904C75ECB7B528186D6085A4B4E701F7 /* Release */ = {
+		84B235C011BBD91E5CC8B44B2EC25D16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F57DF49F1056E22337500B845D598F96 /* Pods-DesafioFoton.release.xcconfig */;
+			baseConfigurationReference = E2A47970C084CF35D1E603271AA4BF1F /* Pods-DesafioFoton.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -571,6 +998,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		97123851588B64D2BA6632EA1CDE83E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B96610E194131035E0E27F7788B771 /* Pods-DesafioFoton-DesafioFotonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A3B97134147B359ACC94E1BC139242BC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -633,9 +1097,46 @@
 			};
 			name = Release;
 		};
-		BC275682425DD17836E629D04866DD05 /* Release */ = {
+		AB445FDA8CD4B9AF21F9DE3C96EA6FC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71F8A3F0D858A4E34D9E7765296D3A8E /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */;
+			baseConfigurationReference = 3F86C39A1C2FE916A369D713F72827BB /* Pods-DesafioFoton.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F792A0F7E97A8BC080772878EF5138F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC15042DAE266E8A17A0C9C0DFED7E7 /* Pods-DesafioFoton-DesafioFotonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -671,60 +1172,23 @@
 			};
 			name = Release;
 		};
-		C3986A2491A63EFC435797559F44E32F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2885312E78747A9F5807446945E20E92 /* Pods-DesafioFoton.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DB64C5F69619D67E82691795CAF3829 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */ = {
+		1FE7BA3A9E4B61C658081FBA76C5D6A6 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3986A2491A63EFC435797559F44E32F /* Debug */,
-				904C75ECB7B528186D6085A4B4E701F7 /* Release */,
+				AB445FDA8CD4B9AF21F9DE3C96EA6FC7 /* Debug */,
+				84B235C011BBD91E5CC8B44B2EC25D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19B944F1DC66FC6A4DF12D933A5D0337 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */ = {
+		36778B42AB96755AAFA8AF892C40E50E /* Build configuration list for PBXNativeTarget "Eureka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FCFE942A6EE3500685D8AF8B17D51EC /* Debug */,
-				BC275682425DD17836E629D04866DD05 /* Release */,
+				2970C634118E91C13265B794D78E6C90 /* Debug */,
+				4D1E7B2E04601C0A0A43D8E65EC4051B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -743,6 +1207,15 @@
 			buildConfigurations = (
 				166110F9CCFFF4190AF1B8627096ACD9 /* Debug */,
 				7FC007B43D9F1DF53B74B089B0688564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB316568A10D734653923281609E4D1 /* Build configuration list for PBXNativeTarget "Pods-DesafioFoton-DesafioFotonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97123851588B64D2BA6632EA1CDE83E2 /* Debug */,
+				F792A0F7E97A8BC080772878EF5138F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

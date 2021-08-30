@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,9 @@
 		03B4AB0E26D9D6DC0001212F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B4AB0C26D9D6DC0001212F /* LaunchScreen.storyboard */; };
 		03B4AB1926D9D6DC0001212F /* DesafioFotonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB1826D9D6DC0001212F /* DesafioFotonTests.swift */; };
 		03B4AB2426D9D6DC0001212F /* DesafioFotonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB2326D9D6DC0001212F /* DesafioFotonUITests.swift */; };
-		03B4AB4B26DAD5270001212F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB4A26DAD5270001212F /* AddContactViewController.swift */; };
 		03B4AB5B26DADAA50001212F /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB5A26DADAA50001212F /* ContactsViewController.swift */; };
-		03B4AB6026DADE7D0001212F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB5F26DADE7D0001212F /* Contact.swift */; };
+		03B4AB8026DB248D0001212F /* EditFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB7F26DB248D0001212F /* EditFormViewController.swift */; };
+		03B4AB8626DC410F0001212F /* DesafioFoton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03B4AB8426DC410F0001212F /* DesafioFoton.xcdatamodeld */; };
 		450F80C706D72264DBC2B852 /* Pods_DesafioFoton_DesafioFotonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A6D3165334DE057CE3C742 /* Pods_DesafioFoton_DesafioFotonUITests.framework */; };
 		8167FE0397665C88A6EE3766 /* Pods_DesafioFotonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B29B77A9E370EDDF7E13F5A /* Pods_DesafioFotonTests.framework */; };
 		F685A366221B7868424ECB4F /* Pods_DesafioFoton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F3899B0DF02515B555E896 /* Pods_DesafioFoton.framework */; };
@@ -53,9 +53,9 @@
 		03B4AB1F26D9D6DC0001212F /* DesafioFotonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioFotonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B4AB2326D9D6DC0001212F /* DesafioFotonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioFotonUITests.swift; sourceTree = "<group>"; };
 		03B4AB2526D9D6DC0001212F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03B4AB4A26DAD5270001212F /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		03B4AB5A26DADAA50001212F /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		03B4AB5F26DADE7D0001212F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		03B4AB7F26DB248D0001212F /* EditFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFormViewController.swift; sourceTree = "<group>"; };
+		03B4AB8526DC410F0001212F /* DesafioFoton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioFoton.xcdatamodel; sourceTree = "<group>"; };
 		179401FCC874E956222E91E6 /* Pods-DesafioFoton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton.release.xcconfig"; path = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.release.xcconfig"; sourceTree = "<group>"; };
 		2B29B77A9E370EDDF7E13F5A /* Pods_DesafioFotonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioFotonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BE049DE7AA4B1CB1884204 /* Pods-DesafioFoton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton.debug.xcconfig"; path = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,9 +126,9 @@
 				03B4AB0A26D9D6DC0001212F /* Assets.xcassets */,
 				03B4AB0C26D9D6DC0001212F /* LaunchScreen.storyboard */,
 				03B4AB0F26D9D6DC0001212F /* Info.plist */,
-				03B4AB4A26DAD5270001212F /* AddContactViewController.swift */,
 				03B4AB5A26DADAA50001212F /* ContactsViewController.swift */,
-				03B4AB5F26DADE7D0001212F /* Contact.swift */,
+				03B4AB7F26DB248D0001212F /* EditFormViewController.swift */,
+				03B4AB8426DC410F0001212F /* DesafioFoton.xcdatamodeld */,
 			);
 			path = DesafioFoton;
 			sourceTree = "<group>";
@@ -161,7 +161,6 @@
 				D8AD73FD5CF0D12BBCEDCD70 /* Pods-DesafioFotonTests.debug.xcconfig */,
 				99C549CEB02BE878CD51EBCE /* Pods-DesafioFotonTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +185,7 @@
 				03B4AAFA26D9D6DB0001212F /* Sources */,
 				03B4AAFB26D9D6DB0001212F /* Frameworks */,
 				03B4AAFC26D9D6DB0001212F /* Resources */,
+				26D23E5074CC55266BB2BCB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +223,7 @@
 				03B4AB1B26D9D6DC0001212F /* Sources */,
 				03B4AB1C26D9D6DC0001212F /* Frameworks */,
 				03B4AB1D26D9D6DC0001212F /* Resources */,
+				FD02B011DE7A477F2CC4AFB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,6 +327,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		26D23E5074CC55266BB2BCB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D1114315EEE5C4DE04EA2FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +388,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FD02B011DE7A477F2CC4AFB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioFoton-DesafioFotonUITests/Pods-DesafioFoton-DesafioFotonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -377,10 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B4AB8026DB248D0001212F /* EditFormViewController.swift in Sources */,
 				03B4AB0226D9D6DB0001212F /* AppDelegate.swift in Sources */,
+				03B4AB8626DC410F0001212F /* DesafioFoton.xcdatamodeld in Sources */,
 				03B4AB5B26DADAA50001212F /* ContactsViewController.swift in Sources */,
-				03B4AB6026DADE7D0001212F /* Contact.swift in Sources */,
-				03B4AB4B26DAD5270001212F /* AddContactViewController.swift in Sources */,
 				03B4AB0426D9D6DB0001212F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -714,6 +749,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03B4AB8426DC410F0001212F /* DesafioFoton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03B4AB8526DC410F0001212F /* DesafioFoton.xcdatamodel */,
+			);
+			currentVersion = 03B4AB8526DC410F0001212F /* DesafioFoton.xcdatamodel */;
+			path = DesafioFoton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 03B4AAF626D9D6DB0001212F /* Project object */;
 }
