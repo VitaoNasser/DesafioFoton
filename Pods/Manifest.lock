@@ -1,20 +1,24 @@
 PODS:
+  - Alamofire (5.4.3)
   - Eureka (5.3.3)
   - JMMaskTextField-Swift (0.1.3)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
   - Eureka
   - JMMaskTextField-Swift
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - Eureka
     - JMMaskTextField-Swift
 
 SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   Eureka: e6d720290c56bb23333ad1a0e020b2a98a0e9a43
   JMMaskTextField-Swift: 16aa552605b121285e6c2f0817ab31cea5f4704b
 
-PODFILE CHECKSUM: 40f8d6ab61e94baa371e539b9649939a4f7d8d17
+PODFILE CHECKSUM: 5bb8889a9088ed1b68062222a19e2ffdf1123f90
 
 COCOAPODS: 1.9.3

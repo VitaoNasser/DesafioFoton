@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class EditFormViewController: UIViewController {
     
@@ -15,6 +16,7 @@ class EditFormViewController: UIViewController {
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var birthDateTextField: UITextField!
     @IBOutlet weak var cepTextField: UITextField!
+    
     @IBOutlet weak var stateTextField: UITextField!
     @IBOutlet weak var cityTextField: UITextField!
     @IBOutlet weak var districtTextField: UITextField!
@@ -35,6 +37,7 @@ class EditFormViewController: UIViewController {
         view.addGestureRecognizer(tap)
     }
     
+    
     func validate() {
         if let name = nameTextField.text, !name.isEmpty {
             saveButton.isEnabled = true
@@ -42,8 +45,8 @@ class EditFormViewController: UIViewController {
             saveButton.isEnabled = false
         }
     }
-    
-    @IBAction func save(_ sender: Any) {
+            
+        @IBAction func save(_ sender: Any) {
         let model = Contact(context: context)
         model.name = nameTextField.text
         model.phoneNumber = phoneNumberTextField.text
@@ -55,7 +58,6 @@ class EditFormViewController: UIViewController {
         model.street = streetTextField.text
         model.streetNumber = streetTextField.text
         model.complement = complementTextField.text
-        
         
         
         do {
@@ -77,8 +79,6 @@ class EditFormViewController: UIViewController {
     @IBAction func onValueChange(_ sender: Any) {
         validate()
     }
-    
-    
     
     
     //Calls this function when the tap is recognized.
