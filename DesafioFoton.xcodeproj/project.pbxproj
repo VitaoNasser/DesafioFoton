@@ -57,7 +57,7 @@
 		03B4AB5A26DADAA50001212F /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		03B4AB7F26DB248D0001212F /* EditFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFormViewController.swift; sourceTree = "<group>"; };
 		03B4AB8526DC410F0001212F /* DesafioFoton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioFoton.xcdatamodel; sourceTree = "<group>"; };
-		03B4ABCA26DD6E8B0001212F /* ViaCepResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViaCepResponse.swift; path = Models/ViaCepResponse.swift; sourceTree = "<group>"; };
+		03B4ABCA26DD6E8B0001212F /* ViaCepResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaCepResponse.swift; sourceTree = "<group>"; };
 		179401FCC874E956222E91E6 /* Pods-DesafioFoton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton.release.xcconfig"; path = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.release.xcconfig"; sourceTree = "<group>"; };
 		2B29B77A9E370EDDF7E13F5A /* Pods_DesafioFotonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioFotonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BE049DE7AA4B1CB1884204 /* Pods-DesafioFoton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFoton.debug.xcconfig"; path = "Target Support Files/Pods-DesafioFoton/Pods-DesafioFoton.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0399F3AF26DFEFB700D15F03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03B4ABCA26DD6E8B0001212F /* ViaCepResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		03B4AAF526D9D6DB0001212F = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +130,7 @@
 		03B4AB0026D9D6DB0001212F /* DesafioFoton */ = {
 			isa = PBXGroup;
 			children = (
+				0399F3AF26DFEFB700D15F03 /* Models */,
 				03B4AB0126D9D6DB0001212F /* AppDelegate.swift */,
 				03B4AB0326D9D6DB0001212F /* SceneDelegate.swift */,
 				03B4AB0726D9D6DB0001212F /* Main.storyboard */,
@@ -131,7 +140,6 @@
 				03B4AB0F26D9D6DC0001212F /* Info.plist */,
 				03B4AB5A26DADAA50001212F /* ContactsViewController.swift */,
 				03B4AB8426DC410F0001212F /* DesafioFoton.xcdatamodeld */,
-				03B4ABCA26DD6E8B0001212F /* ViaCepResponse.swift */,
 			);
 			path = DesafioFoton;
 			sourceTree = "<group>";
